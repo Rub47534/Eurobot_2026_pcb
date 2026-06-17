@@ -95,9 +95,50 @@ Both boards were manufactured at the **Resonit** factory (Moscow, Russia). Solde
 
 | | |
 |:---:|:---:|
-| ![Power Board](Reports/power_pcb_assembl.jpg) | ![Control Board](Reports/control_pcb_place_robot.jpg) |
+| <img src="Reports/power_pcb_assembl.jpg" alt="Assembled power board" width="300"> | <img src="Reports/control_pcb_place_robot.jpg" alt="Assembled control board" width="300"> |
 | *Assembled power board* | *Assembled control board* |
 
 ---
 
+## Testing
 
+A temporary laboratory test bench was assembled for PCB testing, equipped with the following measurement and control instruments:
+- Oscilloscope
+- Multimeter
+- Power supply
+- Signal analyzer
+- Function generator
+
+| | |
+|:---:|:---:|
+| <img src="Reports/power_pcb_electrical_test.jpg" alt="Assembled power board" width="300"> | <img src="Reports/control_pcb_electracal_test_2.jpg" alt="Assembled control board" width="300"> |
+| *Power board testing* | *Control board testing* |
+---
+## Protection and Noise Immunity
+
+### Grounding
+
+To enhance reliability and protect against electrostatic discharge, both boards are connected to the common robot chassis and grounded through a dedicated metal contact at the bottom of the housing. Additionally, the motor power circuits are grounded, eliminating potential breakdowns and interference. These measures significantly increased the system's fault tolerance and ensured stable operation of the electronics.
+
+### Shielding and Interference Suppression
+
+To suppress parasitic coupling and electromagnetic interference, all signal lines were implemented as twisted pairs, which reduced crosstalk. In critical nodes, clock frequencies were optimized — reduced to the minimum acceptable values without affecting overall system performance.
+
+---
+
+## Final Results
+
+Final testing confirmed the high reliability of the system: the robot started successfully on the first attempt, demonstrating flawless operation of all modules. This result was achieved through thorough design, step-by-step debugging, and comprehensive implementation of protective measures — proper shielding, frequency optimization, signal buffering, and a well-designed grounding scheme.
+
+| |
+|:---:|
+| <img src="Reports/power_pcb_place_robot.jpg" alt="Boards installed in the robot" width="400"> |
+| *Power boards installed in the robot* |
+
+## Contact
+
+For collaboration inquiries and additional information, please contact the project developers.
+
+---
+
+**© 2026 | This project was developed as part of the All-Russian Youth Robotics Competition EuroBot**
