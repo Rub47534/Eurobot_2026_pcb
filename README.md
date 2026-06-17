@@ -1,157 +1,156 @@
-# Разработка печатных плат для робототехнической системы
+# EUROBOT 2026 — SCRAT PCB development
+## Overview
 
-## Общая информация
+**Welcome to the PCB development repository for the SCRAT robot of the Engi-Teams team for the Eurobot 2026 competition.** This project encompasses the complete PCB development for the SCRAT robot, including power distribution, control logic, and interface routing. The hardware architecture is built around the STM32H723VGT6 microcontroller (ARM Cortex-M7, 550 MHz) and features two dedicated boards — a Power Board and a Control Board. The design provides multiple regulated voltage rails ***(3.3 V, 5 V, 12 V, 24 V, and adjustable output)***, battery protection circuitry, ESD protection, and EMI filtering. Communication with the high-level PC stack is routed via USB CDC (HS) through micro-ROS‑compatible interfaces. To ensure high quality and stable operation of the robot, the complete PCB development cycle was divided into 10 main stages:
 
-Для обеспечения высокого качества и стабильности работы робота полный цикл разработки печатных плат был разделён на 10 основных этапов:
 
-1. Подбор электронных компонентов (ЭКБ)
-2. Входной контроль и тестирование ЭКБ
-3. Разработка принципиальной электрической схемы
-4. Проектирование топологии печатных плат
-5. Верификация правил проектирования (DRC, LVS)
-6. Тестирование изготовленных печатных плат
-7. Комплексная сборка всех электронных модулей
-8. Тестирование на устойчивость к электростатическому разряду (ESD)
-9. Испытания на электромагнитную совместимость (ЭМС)
-10. Финальное тестирование системы
+**`1`** Electronic Components Selection (ECS)  
+**`2`** Incoming Inspection & Component Testing  
+**`3`** Schematic Design  
+**`4`** PCB Layout Design  
+**`5`** Design Rule Verification (DRC, LVS)  
+**`6`** Manufactured PCB Testing  
+**`7`** Complete Assembly of All Electronic Modules  
+**`8`** Electrostatic Discharge (ESD) Testing  
+**`9`** Electromagnetic Compatibility (EMC) Testing  
+**`10`** Final System Testing
+## Repository Structure
 
----
 
-## Структура репозитория
+
 ├── BOM/
-│ └── Спецификация компонентов с ссылками для закупки
+│ └── Bill of Materials with procurement links
 ├── CAD/
-│ ├── schematic/ # Принципиальные электрические схемы
-│ ├── library/ # Библиотечные элементы компонентов
-│ ├── layout/ # Топология печатных плат
-│ ├── rules.rul # Правила проектирования
-│ └── stackup/ # Стек слоёв с описанием материалов и толщин
+│ ├── schematic/ # Electrical schematics
+│ ├── library/ # Component library elements
+│ ├── layout/ # PCB layout files
+│ ├── rules.rul # Design rules
+│ └── stackup/ # Layer stackup with materials and thicknesses
 ├── Docs/
-│ ├── STM32H723VGT6/ # Документация на микроконтроллер
-│ └── tools/ # Перечень используемых инструментов
+│ ├── STM32H723VGT6/ # Microcontroller documentation
+│ └── tools/ # Design tools list
 ├── Firmware/
-│ └── pinout/ # Описание распиновки платы управления
+│ └── pinout/ # Control board pinout description
 ├── Gerber/
-│ └── Технологические файлы для производства
+│ └── Manufacturing files
 ├── Mech/
-│ ├── boards/ # 3D-модели печатных плат (.step)
-│ └── components/ # 3D-модели используемых компонентов
+│ ├── boards/ # 3D PCB models (.step)
+│ └── components/ # 3D component models
 └── Reports/
-├── photos/ # Фотографии процесса тестирования
-└── docs/ # Конструкторская документация (.pdf)
-
-
----
-
-## Ключевые технические решения
-
-### 1. Магнитные крепления DC-DC-преобразователей
-Применение магнитных креплений для DC-DC-преобразователей обеспечивает быструю замену модулей при перегреве или выходе из строя. Это решение существенно упростило сборку, отладку и сократило время ремонта.
-
-### 2. Развитая система питания
-Реализована система формирования напряжений:
-- 3.3 В
-- 5 В
-- 12 В
-- 24 В
-- Регулируемое напряжение от 3.3 до 24 В
-
-Данное решение позволяет запитать датчики, сервоприводы, двигатели и другие узлы робота с различными уровнями питания. Регулируемая линия используется как резервная для подключения модулей с нестандартными напряжениями.
-
-### 3. Защита аккумулятора от переразряда
-Встроенная схема контроля глубины разряда аккумулятора отключает питание при падении напряжения ниже задаваемого потенциометром порога.
-
-### 4. Разделение силовой и низковольтной частей
-Для снижения помех от силовых цепей на чувствительные интерфейсные узлы силовая и низковольтная части были разнесены на две отдельные платы:
-- Плата питания
-- Плата управления
-
-### 5. Независимая отладка
-Возможность независимой отладки каждой платы упростила настройку электронных узлов внутри робота.
-
-### 6. Резервные интерфейсы
-На плате управления помимо основных интерфейсов предусмотрены резервные разъёмы для подключения дополнительных датчиков, исполнительных устройств и модулей с интерфейсами, не заложенными изначально.
-
-### 7. Защита от перенапряжения и ESD
-Встроенная защита от перенапряжения и электростатических разрядов обеспечивает сохранность чувствительных компонентов.
-
-### 8. Коммутируемая система фильтрации
-На плате питания реализована коммутируемая система фильтрации в виде переключаемого массива конденсаторов на каждой линии, что снижает влияние внутренних помех на узлы платы управления.
+├── photos/ # Testing photos
+└── docs/ # Engineering documentation (.pdf)
 
 ---
 
-## Производство и сборка
+## Key Technical Solutions
 
-- **Изготовление:** фабрика «Резонит» (г. Москва)
-- **Распайка:** собственная лаборатория
-- **Разъёмы:** XH2.54 и контактные колодки для быстрой и надёжной коммутации
-- **Индикация:** светодиодная индикация для визуального контроля состояния ключевых модулей
+### 1. Magnetic Mounting for DC-DC Converters
+Magnetic mounting for DC-DC converters enables quick module replacement in case of overheating or failure. This solution significantly simplified assembly, debugging, and reduced repair time.
 
-### Фотографии собранных плат
-> *Ниже приведены ссылки на изображения распаянных плат*
+### 2. Comprehensive Power Supply System
+Implemented voltage rails:
+- 3.3 V
+- 5 V
+- 12 V
+- 24 V
+- Adjustable voltage from 3.3 to 24 V
 
-- [Фото платы питания](Reports/photos/power_board.jpg)
-- [Фото платы управления](Reports/photos/control_board.jpg)
+This solution allows powering sensors, servos, motors, and other robot modules with different voltage requirements. The adjustable rail serves as a backup for connecting modules with non-standard supply voltages.
 
----
+### 3. Battery Deep Discharge Protection
+An integrated battery discharge control circuit disconnects the battery when the voltage drops below a user-adjustable threshold (set via potentiometer), protecting the battery from over-discharge.
 
-## Тестирование
+### 4. Power and Logic Separation
+To reduce noise coupling from power circuits to sensitive interface nodes, the power and low-voltage sections were separated into two distinct boards:
+- Power Board
+- Control Board
 
-### Лабораторный стенд
-Для тестирования плат был собран временный лабораторный стенд, оснащённый контрольно-измерительным оборудованием:
-- Осциллограф
-- Мультиметр
-- Блок питания
-- Анализатор сигналов
-- Генератор
+### 5. Independent Debugging
+The ability to debug each board independently simplified the tuning of electronic modules inside the robot.
 
-### Фотографии процесса тестирования
-- [Тестирование платы питания](Reports/photos/power_test.jpg)
-- [Тестирование платы управления](Reports/photos/control_test.jpg)
+### 6. Redundant Interfaces
+In addition to the main interfaces, the control board features expansion connectors for connecting additional sensors, actuators, and modules with interfaces not originally planned.
 
----
+### 7. Overvoltage and ESD Protection
+Built-in overvoltage and electrostatic discharge protection ensures the safety of sensitive components.
 
-## Защита и помехозащищённость
-
-### Заземление
-Для повышения надёжности и защиты от статического электричества:
-- Обе платы подключены к общему шасси робота
-- Заземление выполнено через специальный металлический контакт в нижней части корпуса
-- Дополнительно заземлены силовые цепи двигателей
-
-Данные меры исключают потенциальные пробои и наводки, значительно повышая отказоустойчивость системы.
-
-### Экранирование и помехоподавление
-- Все сигнальные линии выполнены в виде витых пар для снижения перекрёстных помех
-- В критичных узлах проведена оптимизация тактовых частот (снижение до минимально допустимых значений, не влияющих на производительность)
-
-### Защитные меры
-- Грамотное экранирование
-- Буферизация сигналов
-- Продуманная схема заземления
+### 8. Switchable Filtering System
+The power board implements a switchable filtering system using a capacitor array on each power rail, reducing the impact of internal power supply noise on the control board nodes.
 
 ---
 
-## Результаты
+## Manufacturing and Assembly
 
-Финальное тестирование подтвердило высокую надёжность системы — робот успешно запустился с первой попытки, продемонстрировав безупречную работу всех узлов.
+- **Fabrication:** Resonit factory (Moscow, Russia)
+- **Soldering:** In-house laboratory
+- **Connectors:** XH2.54 and pin headers for fast and reliable connections
+- **Indication:** LED indicators for visual status monitoring of key modules
 
-Данный результат стал возможен благодаря:
-- Тщательному проектированию
-- Поэтапной отладке
-- Комплексной реализации защитных мер
+### Assembled Board Photos
+> *Images of the assembled boards*
 
-### Фото работы в составе робота
-> *Фото готового устройства*
-
-- [Работа плат в роботе](Reports/photos/robot_assembly.jpg)
-
----
-
-## Контакты
-
-По вопросам сотрудничества и дополнительной информации обращайтесь к разработчикам проекта.
+- [Power Board Photo](Reports/photos/power_board.jpg)
+- [Control Board Photo](Reports/photos/control_board.jpg)
 
 ---
 
-**© 2026 | Проект разработан в рамках создания робототехнической системы**
+## Testing
+
+### Laboratory Test Bench
+A temporary laboratory test bench was assembled for PCB testing, equipped with:
+- Oscilloscope
+- Multimeter
+- Power supply
+- Signal analyzer
+- Function generator
+
+### Testing Photos
+- [Power Board Testing](Reports/photos/power_test.jpg)
+- [Control Board Testing](Reports/photos/control_test.jpg)
+
+---
+
+## Protection and Noise Immunity
+
+### Grounding
+To enhance reliability and protect against static electricity:
+- Both boards are connected to the common robot chassis
+- Grounding is provided through a dedicated metal contact at the bottom of the housing
+- Motor power circuits are additionally grounded
+
+These measures eliminate potential breakdowns and interference, significantly increasing system fault tolerance.
+
+### Shielding and Noise Suppression
+- All signal lines are implemented as twisted pairs to reduce crosstalk
+- Critical nodes underwent clock frequency optimization (reduced to minimum acceptable values without affecting performance)
+
+### Protection Measures
+- Proper shielding
+- Signal buffering
+- Well-designed grounding scheme
+
+---
+
+## Results
+
+Final testing confirmed the high reliability of the system — the robot started successfully on the first attempt, demonstrating flawless operation of all modules.
+
+This result was achieved through:
+- Thorough design
+- Step-by-step debugging
+- Comprehensive implementation of protective measures
+
+### Robot Integration Photo
+> *Image of the boards installed in the robot*
+
+- [Boards in Robot](Reports/photos/robot_assembly.jpg)
+
+---
+
+## Contact
+
+For collaboration inquiries and additional information, please contact the project developers.
+
+---
+
+**© 2026 | Project developed as part of a robotics system creation**
