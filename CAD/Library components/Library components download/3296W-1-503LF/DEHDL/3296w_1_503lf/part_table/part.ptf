@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3296W_1_503LF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "3296W-1-503LF" (!) = "", "3296W1503LF", "Other", "652-3296W-1-503LF", "https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-503LF?qs=NmEazmuVvbVy5cO6T2zGYQ%3D%3D", "3296W-1-503LF", "https://www.arrow.com/en/products/3296w-1-503lf/bourns?utm_currency=USD&region=europe", "3296W top adj cermet trimmer,50K 10mm Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 50k +/-10% 1/2W +/-100ppm/C", "http://www.bourns.com/docs/Product-Datasheets/3296.pdf", "10.28 mm"
+END_PART
+
+END.

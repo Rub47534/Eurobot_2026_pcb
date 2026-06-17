@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DS1024-2_10R2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-19-06:02:20)
+    (mountForm default
+        (footprintRef "DS1024210R2")
+        (spec "System")
+    )
+)

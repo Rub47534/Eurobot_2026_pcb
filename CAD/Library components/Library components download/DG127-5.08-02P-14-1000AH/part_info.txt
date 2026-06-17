@@ -1,0 +1,9 @@
+Manufacturer=Degson
+PartNumber=DG127-5.08-02P-14-1000AH
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2024-05-08 03:23:00
+Downloaded=2026-01-20 23:50:05
+3D=Y

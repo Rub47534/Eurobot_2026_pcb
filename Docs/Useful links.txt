@@ -1,0 +1,3 @@
+Сайт для поиска ЭКБ (модели Altium, 3D модели): https://componentsearchengine.com/library/altium
+Сайт с некоторыми полезными 3d моделями: https://grabcad.com/library/tag/matek
+Сайт по расчёту максимального тока через дорожку: https://voltiq.ru/services/pcb-trace-width-calculator-online-calculator/

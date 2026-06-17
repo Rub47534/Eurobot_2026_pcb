@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SM6T12CA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "SM6T12CA" (!) = "", "DIONM5436X265N", "Diodes Moulded Non Polarised", "511-SM6T12CA", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T12CA?qs=E0mHVHmM7uZZ%252BnXtu4a9QA%3D%3D", "SM6T12CA", "https://www.arrow.com/en/products/sm6t12ca/stmicroelectronics", "TVS Diode Bi-Directional SM6T12CA 21.7V, 600W, SMB 2-Pin", "https://www.st.com/resource/en/datasheet/sm6t100a.pdf", "2.65 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DG128_5.0_02P_14'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Degson", "DG128-5.0-02P-14" (!) = "", "DG1285002P14", "Other", "", "", "", "", "PCB terminal block; angled; 5mm; ways: 2; on PCBs; 2.5mm2; terminal", "https://www.degson.com/index.php?a=downloadFile&id=1097383&name=%27ZmlsZTQ=%27&lang=en", "14.26 mm"
+END_PART
+
+END.

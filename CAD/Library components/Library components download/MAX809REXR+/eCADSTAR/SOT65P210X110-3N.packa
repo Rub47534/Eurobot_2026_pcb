@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAX809REXR+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-06-08:47:57)
+    (mountForm default
+        (footprintRef "SOT65P210X110-3N")
+        (spec "System")
+    )
+)

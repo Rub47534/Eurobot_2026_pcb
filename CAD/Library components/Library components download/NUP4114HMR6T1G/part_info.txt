@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NUP4114HMR6T1G
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=2.1
+Released=2019-07-29 15:45:37
+Downloaded=2026-01-22 13:24:43
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3296W-1-503LF
+D 3296W top adj cermet trimmer,50K 10mm Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 50k +/-10% 1/2W +/-100ppm/C
+K
+F http://www.bourns.com/docs/Product-Datasheets/3296.pdf
+$ENDCMP
+#
+#End Doc Library

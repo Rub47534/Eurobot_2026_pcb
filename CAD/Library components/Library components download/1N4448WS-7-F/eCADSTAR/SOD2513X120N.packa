@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1N4448WS-7-F"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-01-19-23:02:04)
+    (mountForm default
+        (footprintRef "SOD2513X120N")
+        (spec "System")
+    )
+)

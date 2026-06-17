@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DG128-5.0-02P-14"
+   (description "PCB terminal block; angled; 5mm; ways: 2; on PCBs; 2.5mm2; terminal")
+   (family "CON")
+   (package "DG1285002P14")
+   (attribute "Datasheet Link" "https://www.degson.com/index.php?a=downloadFile&id=1097383&name=%27ZmlsZTQ=%27&lang=en")
+   (attribute "Geometry.Height" "14.26mm")
+   (attribute "Manufacturer_Name" "Degson")
+   (attribute "Manufacturer_Part_Number" "DG128-5.0-02P-14")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "DG128-5.0-02P-14")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "DG128-5.0-02P-14"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DG1285002P14"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.07 -5.2)
+      (pt 6.93 -5.2)
+      (pt 6.93 5)
+      (pt -3.07 5)
+      (pt -3.07 -5.2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.07 6)
+      (pt 7.93 6)
+      (pt 7.93 -6.2)
+      (pt -4.07 -6.2)
+      (pt -4.07 6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.07 -5.2)
+      (pt -3.07 5)
+      (pt 6.93 5)
+      (pt 6.93 -5.2)
+      (pt -3.07 -5.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.6 0)
+      (arc (pt -3.600 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.5 0)
+      (arc (pt -3.500 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep .0))
+      (pt -3.6 0)
+      (arc (pt -3.600 0.000) (pt -3.600 -0.050) (pt -3.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -3.5 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.000 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (square 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (square 2.100))
+   )
+   (padstack 2
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (model "DG128-5.0-02P-14.stp"
+    (euler 180 0 90)
+    (offset -6.71999979019165 37.849998474121094 14.460000038146973)
+   )
+  )
+ )
+)

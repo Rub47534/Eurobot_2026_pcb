@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX809REXR+
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=1.1
+Released=2024-08-06 08:47:57
+Downloaded=2026-03-10 22:58:56
+3D=Y

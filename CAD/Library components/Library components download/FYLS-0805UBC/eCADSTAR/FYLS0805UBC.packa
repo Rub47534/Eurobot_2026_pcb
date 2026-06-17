@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FYLS-0805UBC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-05-30-15:21:52)
+    (mountForm default
+        (footprintRef "FYLS0805UBC")
+        (spec "System")
+    )
+)

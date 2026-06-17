@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM6T12CA
+D TVS Diode Bi-Directional SM6T12CA 21.7V, 600W, SMB 2-Pin
+K
+F https://www.st.com/resource/en/datasheet/sm6t100a.pdf
+$ENDCMP
+#
+#End Doc Library

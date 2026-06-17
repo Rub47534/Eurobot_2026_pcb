@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB_A_D_F_W_TH'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMTEC", "USB-A-D-F-W-TH" (!) = "", "USBADFWTH", "Other", "200-USBADFWTH", "https://www.mouser.co.uk/ProductDetail/Samtec/USB-A-D-F-W-TH?qs=Cqqh%252BS766wn0jJmLeJ6S%2Fg%3D%3D", "USB-A-D-F-W-TH", "https://www.arrow.com/en/products/usb-a-d-f-w-th/samtec?region=nac", "SAMTEC - USB-A-D-F-W-TH - USB Stacked Connector, USB Type A, USB 2.0, 8 Ways, Right Angle, Phosphor Bronze", "https://suddendocs.samtec.com/prints/usb-a-d-x-x-th-x-mkt.pdf", "16.09 mm"
+END_PART
+
+END.

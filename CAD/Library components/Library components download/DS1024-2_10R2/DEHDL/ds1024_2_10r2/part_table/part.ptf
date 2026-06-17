@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DS1024_2_10R2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Connfly", "DS1024-2*10R2" (!) = "", "DS1024210R2", "Other", "", "", "", "", "Socket; pin strips; female; PIN: 20; angled 90; 2.54mm; THT; 2x10", "https://en.connfly.com/static/upload/file/pdf/DS1024.pdf", "5.25 mm"
+END_PART
+
+END.

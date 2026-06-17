@@ -1,0 +1,19 @@
+.SK-12F17-G_7 :1 ;Slide Switch SPDT Through Hole, 300MA 30V Right Angle 
+SK12F17G7
+*STM S
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2 6=MH3 7=MH4
+*PLB 1="1" 2="2" 3="3" 4="MH1" 5="MH2" 6="MH3" 7="MH4"
+*MXP 7
+*DFN SK-12F17-G_7
+~!Manufacturer_Name (C & K COMPONENTS)
+~!Manufacturer_Part_Number (SK-12F17-G 7)
+~!Mouser Part Number (611-SK-12F17-G7)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=611-SK-12F17-G7)
+~!Arrow Part Number (SK-12F17-G 7)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sk12f17g7/ck?region=nac)
+~!Link Datasheet (https://www.digikey.com/en/products/detail/c-k/SK-12F17-G-7/2747163)
+~!Height (8mm)
+~!3D_Model (SK-12F17-G_7)
+SK-12F17-G_7
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

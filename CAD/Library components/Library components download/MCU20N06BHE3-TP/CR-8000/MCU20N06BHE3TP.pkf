@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MCU20N06BHE3TP"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MCU20N06BHE3TP")
+        (spec "default")
+    )
+)

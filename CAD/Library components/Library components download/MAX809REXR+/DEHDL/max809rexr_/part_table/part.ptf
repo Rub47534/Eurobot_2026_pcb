@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX809REXR_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "MAX809REXR+" (!) = "", "SOT65P210X110-3N", "SOT23 (3-Pin)", "", "", "", "", "Supervisor Push-Pull, Totem Pole 1 Channel SC-70-3", "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX803-MAX810Z.pdf", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_18526763"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-08-03:23:00)
+    (utime 2024-05-08-03:23:00)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "DG127-5_08-02P-14-1000AH")
+)
+
+
+(pinAssign "ECS_18526763"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-08-03:23:00)
+    (utime 2024-05-08-03:23:00)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18526763")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DG127-5_08-02P-14-1000AH")
+)
+
+
+(part "DG127-5_08-02P-14-1000AH"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-05-08-03:23:00)
+    (utime 2024-05-08-03:23:00)
+    (packageRef "DG127-5_08-02P-14-1000AH")
+    (pinAssignRef "ECS_18526763")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "PCB terminal block; angled 90; 5.08mm; ways: 2; on PCBs; 1.5mm2")
+    (property "Manufacturer_Name" "Degson")
+    (property "Manufacturer_Part_Number" "DG127-5.08-02P-14-1000AH")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.degson.com/index.php?a=downloadFile&id=1098464&name=%27ZmlsZTQ=%27&lang=en")
+    (property "compAreaTopHeight" 10.22)
+)
+
+

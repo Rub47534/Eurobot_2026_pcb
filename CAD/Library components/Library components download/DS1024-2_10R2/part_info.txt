@@ -1,0 +1,9 @@
+Manufacturer=Connfly
+PartNumber=DS1024-2*10R2
+PartCategory=Connector
+PackageCategory=Other
+PinCount=20
+Version=1.2
+Released=2024-02-19 06:02:20
+Downloaded=2026-03-13 13:30:26
+3D=Y

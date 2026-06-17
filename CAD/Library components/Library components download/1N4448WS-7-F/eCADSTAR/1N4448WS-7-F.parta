@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_272592"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-19-15:09:06)
+    (utime 2024-03-18-13:06:02)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1N4448WS-7-F")
+)
+
+
+(pinAssign "ECS_272592"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-19-15:09:06)
+    (utime 2024-03-18-13:06:02)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_272592")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1N4448WS-7-F")
+)
+
+
+(part "1N4448WS-7-F"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-19-15:09:06)
+    (utime 2024-03-18-13:06:02)
+    (packageRef "1N4448WS-7-F")
+    (pinAssignRef "ECS_272592")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diode Switching 75V 0.25A 2Pin SOD323 Diodes Inc 1N4448WS-7-F Switching Diode, 500mA 75V, 2-Pin SOD-323")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "1N4448WS-7-F")
+    (property "Mouser_Part_Number" "621-1N4448WS-F")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4448WS-7-F?qs=4drIV0IxA0qGSTUvNxPxDA%3D%3D")
+    (property "Arrow_Part_Number" "1N4448WS-7-F")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/1n4448ws-7-f/diodes-incorporated?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.diodes.com//assets/Datasheets/ds30096.pdf")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

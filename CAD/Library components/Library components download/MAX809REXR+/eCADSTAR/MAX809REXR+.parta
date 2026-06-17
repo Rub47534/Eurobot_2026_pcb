@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_19843890"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-06-08:47:57)
+    (utime 2024-08-06-08:47:57)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "MAX809REXR+")
+)
+
+
+(pinAssign "ECS_19843890"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-06-08:47:57)
+    (utime 2024-08-06-08:47:57)
+    (interface
+        (port "1" (symbPinId 1) (portName "GND") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "'RESET'") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "VCC") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19843890")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MAX809REXR+")
+)
+
+
+(part "MAX809REXR+"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-06-08:47:57)
+    (utime 2024-08-06-08:47:57)
+    (packageRef "MAX809REXR+")
+    (pinAssignRef "ECS_19843890")
+    (interface
+        (port "1" (symbPinId 1) (portName "GND") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "'RESET'") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "VCC") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "Supervisor Push-Pull, Totem Pole 1 Channel SC-70-3")
+    (property "Manufacturer_Name" "Analog Devices")
+    (property "Manufacturer_Part_Number" "MAX809REXR+")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX803-MAX810Z.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+

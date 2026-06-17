@@ -1,0 +1,18 @@
+.DG127-5.08-02P-14-1000AH :1 ;PCB terminal block; angled 90; 5.08mm; ways: 2; on PCBs; 1.5mm2
+DG12750802P141000AH
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN DG127-5.08-02P-14-1000AH
+~!Manufacturer_Name (Degson)
+~!Manufacturer_Part_Number (DG127-5.08-02P-14-1000AH)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.degson.com/index.php?a=downloadFile&id=1098464&name=%27ZmlsZTQ=%27&lang=en)
+~!Height (10.22mm)
+~!3D_Model (DG127-5.08-02P-14-1000AH)
+DG127-5.08-02P-14-1000AH
+1.1!U 2.1!U 

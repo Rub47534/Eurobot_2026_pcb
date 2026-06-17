@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "L78M05CDT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-11-13-00:12:49)
+    (mountForm default
+        (footprintRef "L78M05CDT")
+        (spec "System")
+    )
+)

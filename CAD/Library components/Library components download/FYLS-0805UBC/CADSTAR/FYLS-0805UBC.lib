@@ -1,0 +1,18 @@
+.FYLS-0805UBC :1 ;LED; SMD; 0805; blue; 120mcd; 2x1.25x0.8mm; 130; 20mA; d: 468nm
+FYLS0805UBC
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN FYLS-0805UBC
+~!Manufacturer_Name (Foryard)
+~!Manufacturer_Part_Number (FYLS-0805UBC)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://v4.cecdn.yun300.cn/100001_2003185297/11%20FYLS-0805XXXC-D.pdf)
+~!Height (0.9mm)
+~!3D_Model (FYLS-0805UBC)
+FYLS-0805UBC
+1.1!U 2.1!U 

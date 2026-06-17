@@ -1,0 +1,18 @@
+.3296W-1-125LF :1 ;Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Solder Pin Terminations, 1.2M +/-10% 0.5W
+"3296W1125LF"
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 3
+*DFN 3296W-1-125LF
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (3296W-1-125LF)
+~!Mouser Part Number (652-3296W-1-125LF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-125LF?qs=10P5Hhl%252BD7%252BlybYQKVv%2FRw%3D%3D)
+~!Arrow Part Number (3296W-1-125LF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/3296w-1-125lf/bourns?region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/3296W-1-125LF.pdf)
+~!Height (11.8mm)
+~!3D_Model (3296W-1-125LF)
+"3296W-1-125LF"
+1.1!U 2.1!U 3.1!U 

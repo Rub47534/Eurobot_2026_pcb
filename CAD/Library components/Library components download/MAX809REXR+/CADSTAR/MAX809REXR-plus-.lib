@@ -1,0 +1,18 @@
+.MAX809REXR-plus- :1 ;Supervisor Push-Pull, Totem Pole 1 Channel SC-70-3
+SOT65P210X110-3N
+*STM IC
+*NGS
+*PLB 1="GND" 2="'RESET'" 3="VCC"
+*MXP 3
+*DFN MAX809REXR-plus-
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX809REXR+)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/MAX803-MAX810Z.pdf)
+~!Height (1.1mm)
+~!3D_Model (MAX809REXR+)
+MAX809REXR-plus-
+1.1!U 2.1!U 3.1!U 

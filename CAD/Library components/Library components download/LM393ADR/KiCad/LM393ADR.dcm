@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM393ADR
+D TEXAS INSTRUMENTS - LM393ADR - COMPARATOR DUAL, SMD, SOIC8, 393
+K
+F http://www.ti.com/lit/ds/symlink/lm393a.pdf
+$ENDCMP
+#
+#End Doc Library

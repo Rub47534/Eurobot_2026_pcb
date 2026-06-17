@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LQM21FN2R2N00D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "LQM21FN2R2N00D" (!) = "", "LQM21NN1R0K10D", "Other", "81-LQM21FN2R2N00D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQM21FN2R2N00D?qs=UiHJ25K6Y8qTV40WqZTE%2Fg%3D%3D", "LQM21FN2R2N00D", "https://www.arrow.com/en/products/lqm21fn2r2n00d/murata-manufacturing?region=nac", "Power inductor SMD 0805 2.2uH Murata LQM21F Series 2200 nH +/-30% Multilayer SMD Inductor, 0805 Case, SRF: 0.07GHz 150mA dc 280m Rdc", "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0006.pdf", "1.05 mm"
+END_PART
+
+END.

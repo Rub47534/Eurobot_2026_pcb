@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FYLS-0805UBC
+D LED; SMD; 0805; blue; 120mcd; 2x1.25x0.8mm; 130; 20mA; d: 468nm
+K
+F https://v4.cecdn.yun300.cn/100001_2003185297/11%20FYLS-0805XXXC-D.pdf
+$ENDCMP
+#
+#End Doc Library

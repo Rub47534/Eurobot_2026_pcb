@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DS1024210R2"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DS1024210R2")
+        (spec "default")
+    )
+)

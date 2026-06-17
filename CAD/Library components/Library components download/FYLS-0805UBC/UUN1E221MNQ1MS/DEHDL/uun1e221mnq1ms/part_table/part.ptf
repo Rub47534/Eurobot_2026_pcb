@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UUN1E221MNQ1MS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nichicon", "UUN1E221MNQ1MS" (!) = "", "CAPAE1360X1450N", "Capacitor Al Electrolytic", "647-UUN1E221MNQ1MS", "https://www.mouser.co.uk/ProductDetail/Nichicon/UUN1E221MNQ1MS?qs=foqSp1HUgzsQeD6U5XTchA%3D%3D", "", "", "Aluminum Electrolytic Capacitors - SMD 220uF 25V 20% 105C 12.5X13.5", "https://componentsearchengine.com/Datasheets/1/UUN1E221MNQ1MS.pdf", "14.5 mm"
+END_PART
+
+END.

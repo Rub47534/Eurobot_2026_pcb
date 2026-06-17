@@ -1,0 +1,9 @@
+Manufacturer=Nichicon
+PartNumber=UUN1E221MNQ1MS
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=1.1
+Released=2019-08-06 09:26:24
+Downloaded=2026-01-23 11:50:16
+3D=Y

@@ -1,0 +1,122 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DG308-2.54-03P-14-00AH"
+   (description "PCB terminal block; angled 90; 2.54mm; ways: 3; on PCBs; 1mm2")
+   (family "CON")
+   (package "DG30825403P1400AH")
+   (attribute "Datasheet Link" "https://static.chipdip.ru/lib/009/DOC004009389.pdf")
+   (attribute "Geometry.Height" "8.7mm")
+   (attribute "Manufacturer_Name" "Degson")
+   (attribute "Manufacturer_Part_Number" "DG308-2.54-03P-14-00AH")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "DG308-2.54-03P-14-00AH")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "DG308-2.54-03P-14-00AH"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DG30825403P1400AH"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.51 3.14)
+      (pt 6.59 3.14)
+      (pt 6.59 -3.13)
+      (pt -1.51 -3.13)
+      (pt -1.51 3.14))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.51 3.14)
+      (pt 6.59 3.14)
+      (pt 6.59 -3.13)
+      (pt -1.51 -3.13)
+      (pt -1.51 3.14))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.51 4.14)
+      (pt 7.59 4.14)
+      (pt 7.59 -4.13)
+      (pt -2.51 -4.13)
+      (pt -2.51 4.14))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 0)
+      (arc (pt -2.000 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.9 0)
+      (arc (pt -1.900 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep .0))
+      (pt -2 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (padstack 1
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (square 1.650))
+   )
+   (model "DG308-2.54-03P-14-00AH.stp"
+    (euler 90 0 90)
+    (offset 2.5399999618530273 -3.180000066757202 -0.2199999988079071)
+   )
+  )
+ )
+)

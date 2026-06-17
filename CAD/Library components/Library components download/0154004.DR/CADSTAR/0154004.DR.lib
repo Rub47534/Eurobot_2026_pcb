@@ -1,0 +1,18 @@
+.0154004.DR :1 ;Fuse SMD NANO2 4A FF w/holder Littelfuse 4A FF Surface Mount Fuse, 125 V ac/dc
+"0154001.DRT"
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 0154004.DR
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (0154004.DR)
+~!Mouser Part Number (576-0154004.DR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/0154004.DR?qs=gu7KAQ731UQeedYeniUNnQ%3D%3D)
+~!Arrow Part Number (0154004.DR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/0154004.dr/littelfuse?utm_currency=USD&region=nac)
+~!Link Datasheet (http://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf)
+~!Height (-)
+~!3D_Model (0154004.DR)
+"0154004.DR"
+1.1!U 2.1!U 

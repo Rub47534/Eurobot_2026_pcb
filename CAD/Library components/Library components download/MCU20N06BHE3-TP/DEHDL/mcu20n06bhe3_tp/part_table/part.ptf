@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCU20N06BHE3_TP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "MCC", "MCU20N06BHE3-TP" (!) = "", "MCU20N06BHE3TP", "Other", "", "", "", "", "N-CHANNEL MOSFET,-55C to +150C,DPAK(TO-252)", "https://www.mccsemi.com/pdf/Products/MCU20N06BHE3(DPAK).pdf", "2.53 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TSW-106-07-S-S-LL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-21-13:13:33)
+    (mountForm default
+        (footprintRef "HDRV6W64P254_1X6_1524X241X838P")
+        (spec "System")
+    )
+)

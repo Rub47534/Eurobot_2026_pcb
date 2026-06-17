@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "USB-A1VSB6"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-27-13:49:28)
+    (mountForm default
+        (footprintRef "USBA1VSB6")
+        (spec "System")
+    )
+)

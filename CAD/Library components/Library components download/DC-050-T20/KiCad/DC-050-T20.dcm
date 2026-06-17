@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DC-050-T20
+D Connector
+K
+F https://datasheet.lcsc.com/szlcsc/SOFNG-DC-050-T20_C114916.pdf
+$ENDCMP
+#
+#End Doc Library

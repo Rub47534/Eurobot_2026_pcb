@@ -1,0 +1,93 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RC0805FR-134K75L"
+   (description "Thick Film Resistors - SMD 4.75kOhms 1/8W 0805 1%")
+   (family "RES")
+   (package "RESC2012X60N")
+   (attribute "Datasheet Link" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Manufacturer_Name" "YAGEO")
+   (attribute "Manufacturer_Part_Number" "RC0805FR-134K75L")
+   (attribute "Mouser Part Number" "603-RC0805FR-134K75L")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0805FR-134K75L?qs=m6lXFsvg5e267D1E2DRXpg%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RC0805FR-134K75L")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "RC0805FR-134K75L"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC2012X60N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.675 0.95)
+      (pt 1.675 0.95)
+      (pt 1.675 -0.95)
+      (pt -1.675 -0.95)
+      (pt -1.675 0.95))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 0.625)
+      (pt 1 0.625)
+      (pt 1 -0.625)
+      (pt -1 -0.625)
+      (pt -1 0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.525)
+      (pt 0 -0.525))))
+   (leg 1 (pt -0.95 0) (padstack 0))
+   (leg 2 (pt 0.95 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.95 1.4 0 0 90))
+   )
+   (model "RC0805FR-134K75L.stp"
+    (euler 0 0 0)
+    (offset 0 0 0.6000000238418579)
+   )
+  )
+ )
+)

@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_18018143"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-11-09:16:23)
+    (utime 2024-08-22-05:49:23)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "MCU20N06BHE3-TP")
+)
+
+
+(pinAssign "ECS_18018143"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-11-09:16:23)
+    (utime 2024-08-22-05:49:23)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18018143")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MCU20N06BHE3-TP")
+)
+
+
+(part "MCU20N06BHE3-TP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-11-09:16:23)
+    (utime 2024-08-22-05:49:23)
+    (packageRef "MCU20N06BHE3-TP")
+    (pinAssignRef "ECS_18018143")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "N-CHANNEL MOSFET,-55C to +150C,DPAK(TO-252)")
+    (property "Manufacturer_Name" "MCC")
+    (property "Manufacturer_Part_Number" "MCU20N06BHE3-TP")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.mccsemi.com/pdf/Products/MCU20N06BHE3(DPAK).pdf")
+    (property "compAreaTopHeight" 2.53)
+)
+
+

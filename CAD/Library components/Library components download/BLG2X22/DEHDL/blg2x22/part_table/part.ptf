@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BLG2X22'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Econ Connect", "BLG2X22" (!) = "", "RHDR44W64P254X254_2X22_5638X500X865P", "Header, Receptacle - Straight PTH Box", "", "", "", "", "3A, 1000V, -40 C to +105 C Female Header Pitch 2.54 mm double row, height 8.5 mm", "https://asset.conrad.com/media10/add/160267/c1/-/en/001492335DS01/datenblatt-1492335-econ-connect-buchsenleiste-standard-anzahl-reihen-2-polzahl-je-reihe-22-blg2x22-1-st.pdf", "8.65 mm"
+END_PART
+
+END.

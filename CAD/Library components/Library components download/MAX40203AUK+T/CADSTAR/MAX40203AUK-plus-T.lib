@@ -1,0 +1,18 @@
+.MAX40203AUK-plus-T :1 ;MAXIM INTEGRATED PRODUCTS - MAX40203AUK+T - IDEAL DIODE CURRENT SW, -40 TO 125DEG C
+SOT95P280X145-5N
+*STM D
+*NGS
+*PLB 1="VDD" 2="GND" 3="EN" 4="N.C" 5="OUT"
+*MXP 5
+*DFN MAX40203AUK-plus-T
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX40203AUK+T)
+~!Mouser Part Number (700-MAX40203AUK+T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX40203AUK%2bT?qs=l7cgNqFNU1j1dlDj29Iz0A%3D%3D)
+~!Arrow Part Number (MAX40203AUK+T)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/max40203aukt/analog-devices?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.mouser.com/datasheet/2/256/MAX40203-1517812.pdf)
+~!Height (1.45mm)
+~!3D_Model (MAX40203AUK+T)
+MAX40203AUK-plus-T
+1.1!P 2.1!G 3.1!I 4.1!U 5.1!Y 

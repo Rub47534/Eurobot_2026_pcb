@@ -1,0 +1,18 @@
+.SM6T12A :1 ;STMICROELECTRONICS - SM6T12A - TVS Diode, Transil SM6T Series, Unidirectional, 10.2 V, 21.7 V, DO-214AA, 2 Pins
+DIOM5436X265N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SM6T12A
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (SM6T12A)
+~!Mouser Part Number (511-SM6T12A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T12A?qs=arR7071FstdELXE5zqFB%2Fg%3D%3D)
+~!Arrow Part Number (SM6T12A)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sm6t12a/stmicroelectronics?region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/sm6t100a.pdf)
+~!Height (2.65mm)
+~!3D_Model (SM6T12A)
+SM6T12A
+1.1!U 2.1!U 

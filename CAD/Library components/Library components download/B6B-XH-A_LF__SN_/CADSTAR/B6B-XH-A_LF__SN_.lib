@@ -1,0 +1,18 @@
+.B6B-XH-A_LF__SN_ :1 ;CONN HEADER VERT 6POS 2.5MM
+SHDR6W64P0X250_1X6_1740X575X700P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN B6B-XH-A_LF__SN_
+~!Manufacturer_Name (JST (JAPAN SOLDERLESS TERMINALS))
+~!Manufacturer_Part_Number (B6B-XH-A(LF)(SN))
+~!Mouser Part Number (306-B6BXHALFSN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/JST-Commercial/B6B-XH-ALFSN?qs=cdbOS8ANM9AKmMmofXbwlw%3D%3D)
+~!Arrow Part Number (B6B-XH-A(LF)(SN))
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/b6b-xh-a-lf-sn/jst-manufacturing?utm_currency=USD&region=europe)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf)
+~!Height (7mm)
+~!3D_Model (B6B-XH-A_LF__SN_)
+B6B-XH-A_LF__SN_
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "KLS5-1096"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-05-26-08:32:11)
+    (mountForm default
+        (footprintRef "KLS51096")
+        (spec "System")
+    )
+)

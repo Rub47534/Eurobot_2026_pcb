@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=SM6T12A
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=6.1
+Released=2022-09-04 06:13:19
+Downloaded=2026-01-22 12:02:17
+3D=Y

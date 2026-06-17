@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DC-050-T20"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-10-11:11:40)
+    (mountForm default
+        (footprintRef "DC050T20")
+        (spec "System")
+    )
+)

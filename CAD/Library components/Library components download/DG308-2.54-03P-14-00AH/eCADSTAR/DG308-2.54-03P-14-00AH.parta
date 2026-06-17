@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_15999420"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-02-13-08:46:06)
+    (utime 2023-07-27-10:30:40)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "DG308-2_54-03P-14-00AH")
+)
+
+
+(pinAssign "ECS_15999420"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-02-13-08:46:06)
+    (utime 2023-07-27-10:30:40)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15999420")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DG308-2_54-03P-14-00AH")
+)
+
+
+(part "DG308-2_54-03P-14-00AH"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-02-13-08:46:06)
+    (utime 2023-07-27-10:30:40)
+    (packageRef "DG308-2_54-03P-14-00AH")
+    (pinAssignRef "ECS_15999420")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "PCB terminal block; angled 90; 2.54mm; ways: 3; on PCBs; 1mm2")
+    (property "Manufacturer_Name" "Degson")
+    (property "Manufacturer_Part_Number" "DG308-2.54-03P-14-00AH")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://static.chipdip.ru/lib/009/DOC004009389.pdf")
+    (property "compAreaTopHeight" 8.7)
+)
+
+

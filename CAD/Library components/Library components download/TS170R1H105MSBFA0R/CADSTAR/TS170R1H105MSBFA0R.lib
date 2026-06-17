@@ -1,0 +1,18 @@
+.TS170R1H105MSBFA0R :1 ;1uF 20% 50V Y5V P:2.54mm Radial Ceramic Capacitor 4.2 x 3.8 x 3mm -25 to +85C
+TS170R1H105MSBFA0R
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN TS170R1H105MSBFA0R
+~!Manufacturer_Name (Suntan Technology)
+~!Manufacturer_Part_Number (TS170R1H105MSBFA0R)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.suntan.com.hk/pdf/Ceramic-Capacitors/TS17.pdf)
+~!Height (6.3mm)
+~!3D_Model (TS170R1H105MSBFA0R)
+TS170R1H105MSBFA0R
+1.1!U 2.1!U 

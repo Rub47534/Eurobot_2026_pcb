@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_20189155"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-12-23-08:38:24)
+    (utime 2024-12-23-08:38:24)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TS170R1H105MSBFA0R")
+)
+
+
+(pinAssign "ECS_20189155"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-12-23-08:38:24)
+    (utime 2024-12-23-08:38:24)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_20189155")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TS170R1H105MSBFA0R")
+)
+
+
+(part "TS170R1H105MSBFA0R"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-12-23-08:38:24)
+    (utime 2024-12-23-08:38:24)
+    (packageRef "TS170R1H105MSBFA0R")
+    (pinAssignRef "ECS_20189155")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "1uF 20% 50V Y5V P:2.54mm Radial Ceramic Capacitor 4.2 x 3.8 x 3mm -25 to +85C")
+    (property "Manufacturer_Name" "Suntan Technology")
+    (property "Manufacturer_Part_Number" "TS170R1H105MSBFA0R")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.suntan.com.hk/pdf/Ceramic-Capacitors/TS17.pdf")
+    (property "compAreaTopHeight" 6.3)
+)
+
+

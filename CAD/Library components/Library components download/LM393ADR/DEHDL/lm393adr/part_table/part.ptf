@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM393ADR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM393ADR" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-LM393ADR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM393ADR?qs=VolsR0DjNPq76ZV6Dhd8nQ%3D%3D", "LM393ADR", "https://www.arrow.com/en/products/lm393adr/texas-instruments?utm_currency=USD&region=nac", "TEXAS INSTRUMENTS - LM393ADR - COMPARATOR DUAL, SMD, SOIC8, 393", "http://www.ti.com/lit/ds/symlink/lm393a.pdf", "1.75 mm"
+END_PART
+
+END.

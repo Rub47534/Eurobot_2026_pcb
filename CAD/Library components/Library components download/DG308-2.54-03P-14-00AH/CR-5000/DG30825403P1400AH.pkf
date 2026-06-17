@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DG30825403P1400AH"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DG30825403P1400AH")
+        (spec "default")
+    )
+)

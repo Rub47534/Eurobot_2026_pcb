@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "USBADFWTH"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "USBADFWTH")
+        (spec "default")
+    )
+)

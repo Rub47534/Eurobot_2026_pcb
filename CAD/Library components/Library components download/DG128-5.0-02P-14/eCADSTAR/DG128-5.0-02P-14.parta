@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_18490149"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-06-06:48:40)
+    (utime 2024-12-23-18:24:04)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "DG128-5_0-02P-14")
+)
+
+
+(pinAssign "ECS_18490149"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-06-06:48:40)
+    (utime 2024-12-23-18:24:04)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18490149")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DG128-5_0-02P-14")
+)
+
+
+(part "DG128-5_0-02P-14"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-06-06:48:40)
+    (utime 2024-12-23-18:24:04)
+    (packageRef "DG128-5_0-02P-14")
+    (pinAssignRef "ECS_18490149")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "PCB terminal block; angled; 5mm; ways: 2; on PCBs; 2.5mm2; terminal")
+    (property "Manufacturer_Name" "Degson")
+    (property "Manufacturer_Part_Number" "DG128-5.0-02P-14")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.degson.com/index.php?a=downloadFile&id=1097383&name=%27ZmlsZTQ=%27&lang=en")
+    (property "compAreaTopHeight" 14.26)
+)
+
+

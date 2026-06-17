@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_179884"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-04-06:13:19)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SM6T12A")
+)
+
+
+(pinAssign "ECS_179884"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-04-06:13:19)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_179884")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SM6T12A")
+)
+
+
+(part "SM6T12A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-09-04-06:13:19)
+    (utime 2026-01-08-14:31:13)
+    (packageRef "SM6T12A")
+    (pinAssignRef "ECS_179884")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "STMICROELECTRONICS - SM6T12A - TVS Diode, Transil SM6T Series, Unidirectional, 10.2 V, 21.7 V, DO-214AA, 2 Pins")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "SM6T12A")
+    (property "Mouser_Part_Number" "511-SM6T12A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T12A?qs=arR7071FstdELXE5zqFB%2Fg%3D%3D")
+    (property "Arrow_Part_Number" "SM6T12A")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/sm6t12a/stmicroelectronics?region=nac")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/sm6t100a.pdf")
+    (property "compAreaTopHeight" 2.65)
+)
+
+

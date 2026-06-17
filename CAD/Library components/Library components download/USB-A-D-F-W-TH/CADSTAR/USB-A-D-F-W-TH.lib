@@ -1,0 +1,19 @@
+.USB-A-D-F-W-TH :1 ;SAMTEC - USB-A-D-F-W-TH - USB Stacked Connector, USB Type A, USB 2.0, 8 Ways, Right Angle, Phosphor Bronze
+USBADFWTH
+*STM J
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=A4 5=B1 6=B2 7=B3 8=B4 9=MH1 10=MH2 11=MH3 12=MH4
+*PLB 1="A1" 2="A2" 3="A3" 4="A4" 5="B1" 6="B2" 7="B3" 8="B4" 9="MH_1" 10="MH_2" 11="MH_3" 12="MH_4"
+*MXP 12
+*DFN USB-A-D-F-W-TH
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (USB-A-D-F-W-TH)
+~!Mouser Part Number (200-USBADFWTH)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Samtec/USB-A-D-F-W-TH?qs=Cqqh%252BS766wn0jJmLeJ6S%2Fg%3D%3D)
+~!Arrow Part Number (USB-A-D-F-W-TH)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/usb-a-d-f-w-th/samtec?region=nac)
+~!Link Datasheet (https://suddendocs.samtec.com/prints/usb-a-d-x-x-th-x-mkt.pdf)
+~!Height (16.09mm)
+~!3D_Model (USB-A-D-F-W-TH)
+USB-A-D-F-W-TH
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

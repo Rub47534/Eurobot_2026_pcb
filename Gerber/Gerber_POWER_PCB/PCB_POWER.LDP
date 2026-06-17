@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Lev\Documents\main_documents\EuroBot_2026\PCB_main\PCB_EuroBot_2026\PCB_POWER\PCB_POWER.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb_power.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=pcb_power-rectholes.txt|DrillLayers=gtl,gbl

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCU20N06BHE3-TP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-11-09:16:23)
+    (mountForm default
+        (footprintRef "MCU20N06BHE3TP")
+        (spec "System")
+    )
+)

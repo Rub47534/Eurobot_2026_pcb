@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM6T12A
+D STMICROELECTRONICS - SM6T12A - TVS Diode, Transil SM6T Series, Unidirectional, 10.2 V, 21.7 V, DO-214AA, 2 Pins
+K
+F https://www.st.com/resource/en/datasheet/sm6t100a.pdf
+$ENDCMP
+#
+#End Doc Library

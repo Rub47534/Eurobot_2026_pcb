@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L78M05CDT
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=6.1
+Released=2017-01-12 09:29:10
+Downloaded=2026-03-05 12:57:52
+3D=Y

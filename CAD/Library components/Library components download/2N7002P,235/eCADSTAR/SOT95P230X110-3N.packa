@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2N7002P_235"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-09-29-15:29:10)
+    (mountForm default
+        (footprintRef "SOT95P230X110-3N")
+        (spec "System")
+    )
+)

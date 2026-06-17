@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78M05CDT
+D Positive voltage regulators, Precision 500 mA, 5V, DPAK
+K
+F https://www.st.com/resource/en/datasheet/l78m.pdf
+$ENDCMP
+#
+#End Doc Library

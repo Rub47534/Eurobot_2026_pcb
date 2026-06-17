@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "FYLS0805UBC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "FYLS0805UBC")
+        (spec "default")
+    )
+)

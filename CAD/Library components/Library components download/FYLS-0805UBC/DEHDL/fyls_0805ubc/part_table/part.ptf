@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FYLS_0805UBC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Foryard", "FYLS-0805UBC" (!) = "", "FYLS0805UBC", "Other", "", "", "", "", "LED; SMD; 0805; blue; 120mcd; 2x1.25x0.8mm; 130; 20mA; d: 468nm", "https://v4.cecdn.yun300.cn/100001_2003185297/11%20FYLS-0805XXXC-D.pdf", "0.9 mm"
+END_PART
+
+END.

@@ -1,0 +1,115 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3296W-1-125LF"
+   (description "Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Solder Pin Terminations, 1.2M +/-10% 0.5W")
+   (family "ANA")
+   (package "3296W1125LF")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/3296W-1-125LF.pdf")
+   (attribute "Geometry.Height" "11.8mm")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "3296W-1-125LF")
+   (attribute "Mouser Part Number" "652-3296W-1-125LF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-125LF?qs=10P5Hhl%252BD7%252BlybYQKVv%2FRw%3D%3D")
+   (attribute "Arrow Part Number" "3296W-1-125LF")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/3296w-1-125lf/bourns?region=nac")
+   (gate
+    (symbol "3296W-1-125LF")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+   )
+  )
+  (symbol "3296W-1-125LF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "3296W1125LF"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.305 2.42)
+      (pt 2.225 2.42)
+      (pt 2.225 -2.41)
+      (pt -7.305 -2.41)
+      (pt -7.305 2.42))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.305 2.42)
+      (pt 2.225 2.42)
+      (pt 2.225 -2.41)
+      (pt -7.305 -2.41)
+      (pt -7.305 2.42))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.305 3.42)
+      (pt 4 3.42)
+      (pt 4 -3.41)
+      (pt -8.305 -3.41)
+      (pt -8.305 3.42))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 3 0)
+      (arc (pt 3.000 0.000) (pt 2.800 -0.100) (pt 3.000 0.100) (start 180.0) (sweep .0))
+      (pt 2.8 0)
+      (arc (pt 2.800 0.000) (pt 2.800 -0.100) (pt 3.000 0.100) (start 180.0) (sweep 180.0))
+      (pt 3 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -2.540 0.000) (padstack 0))
+   (leg 3 (pt -5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.71)
+    (plated true)
+    (pad (layer TCOP) (round 1.217))
+    (pad (layer INNER) (round 1.217))
+    (pad (layer BCOP) (round 1.217))
+   )
+   (model "3296W-1-125LF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

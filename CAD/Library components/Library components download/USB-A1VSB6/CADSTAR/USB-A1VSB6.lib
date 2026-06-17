@@ -1,0 +1,19 @@
+.USB-A1VSB6 :1 ;USB - A Receptacle Connector 4 Position Through Hole
+USBA1VSB6
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=MH1 6=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MH1" 6="MH2"
+*MXP 6
+*DFN USB-A1VSB6
+~!Manufacturer_Name (On Shore Technology Inc.)
+~!Manufacturer_Part_Number (USB-A1VSB6)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (USB-A1VSB6)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/usb-a1vsb6/on-shore-technology?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.on-shore.com/wp-content/uploads/USB-A1VSXX.pdf)
+~!Height (13.7mm)
+~!3D_Model (USB-A1VSB6)
+USB-A1VSB6
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

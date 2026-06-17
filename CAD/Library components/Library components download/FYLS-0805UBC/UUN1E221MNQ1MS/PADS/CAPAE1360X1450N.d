@@ -1,0 +1,38 @@
+*PADS-LIBRARY-PCB-DECALS-V9*
+
+CAPAE1360X1450N M 0 0 0 2 4 0 2 1 0
+TIMESTAMP 2026.01.23.11.01.16
+0 0 0 0 1.27 0.127 1 0 34 "Regular <Romansim Stroke Font>"
+REF-DES
+0 0 0 0 1.27 0.127 1 32 35 "Regular <Romansim Stroke Font>"
+PART-TYPE
+CLOSED 5 0.05 20 -1
+-8.7 7.4
+8.7 7.4
+8.7 -7.4
+-8.7 -7.4
+-8.7 7.4
+CLOSED 7 0.1 27 -1
+6.8 6.8
+-3.4 6.8
+-6.8 3.4
+-6.8 -3.4
+-3.4 -6.8
+6.8 -6.8
+6.8 6.8
+OPEN 2 0.2 26 -1
+-8.2 6.8
+6.8 6.8
+OPEN 2 0.2 26 -1
+-3.4 -6.8
+6.8 -6.8
+T-5 0 -5 0 1
+T5 0 5 0 2
+PAD 0 3 N 0
+-2 2.4 RF 0 0 6.4 0
+-1 0 R
+0 0 R
+
+*END*
+*REMARK* AP
+UUN1E221MNQ1MS.stp/0/0/0/0/0/0

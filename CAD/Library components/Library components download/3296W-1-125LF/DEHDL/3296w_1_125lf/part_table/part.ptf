@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3296W_1_125LF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "3296W-1-125LF" (!) = "", "3296W1125LF", "Other", "652-3296W-1-125LF", "https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-125LF?qs=10P5Hhl%252BD7%252BlybYQKVv%2FRw%3D%3D", "3296W-1-125LF", "https://www.arrow.com/en/products/3296w-1-125lf/bourns?region=nac", "Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Solder Pin Terminations, 1.2M +/-10% 0.5W", "https://componentsearchengine.com/Datasheets/2/3296W-1-125LF.pdf", "11.8 mm"
+END_PART
+
+END.

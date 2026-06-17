@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCU20N06BHE3-TP
+D N-CHANNEL MOSFET,-55C to +150C,DPAK(TO-252)
+K
+F https://www.mccsemi.com/pdf/Products/MCU20N06BHE3(DPAK).pdf
+$ENDCMP
+#
+#End Doc Library

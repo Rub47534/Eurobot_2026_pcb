@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model USB-A-D-F-W-TH
+#/1418438/1869775/2.50/12/2/Connector
+DEF USB-A-D-F-W-TH J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "USB-A-D-F-W-TH" 850 200 50 H V L CNN
+F2 "USBADFWTH" 850 100 50 H I L CNN
+F3 "https://suddendocs.samtec.com/prints/usb-a-d-x-x-th-x-mkt.pdf" 850 0 50 H I L CNN
+F4 "SAMTEC - USB-A-D-F-W-TH - USB Stacked Connector, USB Type A, USB 2.0, 8 Ways, Right Angle, Phosphor Bronze" 850 -100 50 H I L CNN "Description"
+F5 "16.09" 850 -200 50 H I L CNN "Height"
+F6 "SAMTEC" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "USB-A-D-F-W-TH" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "200-USBADFWTH" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samtec/USB-A-D-F-W-TH?qs=Cqqh%252BS766wn0jJmLeJ6S%2Fg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "USB-A-D-F-W-TH" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/usb-a-d-f-w-th/samtec?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X B1 B1 0 -400 200 R 50 50 0 0 P
+X B2 B2 0 -500 200 R 50 50 0 0 P
+X B3 B3 1000 0 200 L 50 50 0 0 P
+X B4 B4 1000 -100 200 L 50 50 0 0 P
+X MH_1 MH1 1000 -200 200 L 50 50 0 0 P
+X MH_2 MH2 1000 -300 200 L 50 50 0 0 P
+X MH_3 MH3 1000 -400 200 L 50 50 0 0 P
+X MH_4 MH4 1000 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1024-2_10R2
+D Socket; pin strips; female; PIN: 20; angled 90; 2.54mm; THT; 2x10
+K
+F https://en.connfly.com/static/upload/file/pdf/DS1024.pdf
+$ENDCMP
+#
+#End Doc Library

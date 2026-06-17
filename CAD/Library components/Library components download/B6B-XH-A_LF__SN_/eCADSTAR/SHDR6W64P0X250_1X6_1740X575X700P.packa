@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B6B-XH-A_LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-10-09:46:22)
+    (mountForm default
+        (footprintRef "SHDR6W64P0X250_1X6_1740X575X700P")
+        (spec "System")
+    )
+)

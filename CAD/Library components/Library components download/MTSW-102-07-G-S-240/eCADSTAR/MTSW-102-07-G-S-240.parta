@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_925270"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-21-06:44:34)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MTSW-102-07-G-S-240")
+)
+
+
+(pinAssign "ECS_925270"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-21-06:44:34)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_925270")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MTSW-102-07-G-S-240")
+)
+
+
+(part "MTSW-102-07-G-S-240"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-21-06:44:34)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "MTSW-102-07-G-S-240")
+    (pinAssignRef "ECS_925270")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Headers & Wire Housings .100\" Variable Post Height Terminal Strip")
+    (property "Manufacturer_Name" "SAMTEC")
+    (property "Manufacturer_Part_Number" "MTSW-102-07-G-S-240")
+    (property "Mouser_Part_Number" "200-MTSW10207GS240")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/MTSW-102-07-G-S-240?qs=rU5fayqh%252BE07rqkuKhF%252Bfg%3D%3D")
+    (property "Arrow_Part_Number" "MTSW-102-07-G-S-240")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/mtsw-102-07-g-s-240/samtec")
+    (property "Datasheet_Link" "http://suddendocs.samtec.com/catalog_english/mtsw.pdf")
+    (property "compAreaTopHeight" 8.64)
+)
+
+

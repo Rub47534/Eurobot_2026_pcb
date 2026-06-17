@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TS170R1H105MSBFA0R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Suntan Technology", "TS170R1H105MSBFA0R" (!) = "", "TS170R1H105MSBFA0R", "Other", "", "", "", "", "1uF 20% 50V Y5V P:2.54mm Radial Ceramic Capacitor 4.2 x 3.8 x 3mm -25 to +85C", "https://www.suntan.com.hk/pdf/Ceramic-Capacitors/TS17.pdf", "6.3 mm"
+END_PART
+
+END.

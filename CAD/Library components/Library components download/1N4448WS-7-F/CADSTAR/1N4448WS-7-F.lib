@@ -1,0 +1,18 @@
+.1N4448WS-7-F :1 ;Diode Switching 75V 0.25A 2Pin SOD323 Diodes Inc 1N4448WS-7-F Switching Diode, 500mA 75V, 2-Pin SOD-323
+SOD2513X120N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1N4448WS-7-F
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (1N4448WS-7-F)
+~!Mouser Part Number (621-1N4448WS-F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4448WS-7-F?qs=4drIV0IxA0qGSTUvNxPxDA%3D%3D)
+~!Arrow Part Number (1N4448WS-7-F)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/1n4448ws-7-f/diodes-incorporated?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/ds30096.pdf)
+~!Height (1.2mm)
+~!3D_Model (1N4448WS-7-F)
+"1N4448WS-7-F"
+1.1!U 2.1!U 

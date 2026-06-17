@@ -1,0 +1,18 @@
+.2N7002P_235 :1 ;N-Channel 60 V 360mA (Ta) 350mW (Ta) Surface Mount TO-236AB
+SOT95P230X110-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN 2N7002P_235
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (2N7002P,235)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/2N7002P.pdf)
+~!Height (1.1mm)
+~!3D_Model (2N7002P,235)
+"2N7002P_235"
+1.1!U 2.1!U 3.1!U 

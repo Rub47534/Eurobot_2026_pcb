@@ -1,0 +1,9 @@
+Manufacturer=MCC
+PartNumber=MCU20N06BHE3-TP
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=3.1
+Released=2024-01-11 09:16:23
+Downloaded=2026-03-14 22:03:17
+3D=Y

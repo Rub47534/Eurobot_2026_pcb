@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B6B_XH_A_LF__SN_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "JST (JAPAN SOLDERLESS TERMINALS)", "B6B-XH-A(LF)(SN)" (!) = "", "SHDR6W64P0X250_1X6_1740X575X700P", "Header, Shrouded - Straight PTH Box", "306-B6BXHALFSN", "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B6B-XH-ALFSN?qs=cdbOS8ANM9AKmMmofXbwlw%3D%3D", "B6B-XH-A(LF)(SN)", "https://www.arrow.com/en/products/b6b-xh-a-lf-sn/jst-manufacturing?utm_currency=USD&region=europe", "CONN HEADER VERT 6POS 2.5MM", "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf", "7 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002P,235
+D N-Channel 60 V 360mA (Ta) 350mW (Ta) Surface Mount TO-236AB
+K
+F https://assets.nexperia.com/documents/data-sheet/2N7002P.pdf
+$ENDCMP
+#
+#End Doc Library

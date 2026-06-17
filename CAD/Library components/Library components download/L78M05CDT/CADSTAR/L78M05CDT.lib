@@ -1,0 +1,18 @@
+.L78M05CDT :1 ;Positive voltage regulators, Precision 500 mA, 5V, DPAK
+L78M05CDT
+*STM IC
+*NGS
+*PLB 1="IN" 2="GND" 3="OUT"
+*MXP 3
+*DFN L78M05CDT
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (L78M05CDT)
+~!Mouser Part Number (511-L78M05CDT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M05CDT?qs=EYQuxaDwR79rnNxSL0UEZA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/l78m.pdf)
+~!Height (2.5mm)
+~!3D_Model (L78M05CDT)
+L78M05CDT
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Econ Connect
+PartNumber=BLG2X22
+PartCategory=Connector
+PackageCategory=Header, Receptacle - Straight PTH Box
+PinCount=44
+Version=1.1
+Released=2023-10-10 09:43:44
+Downloaded=2026-03-01 09:13:07
+3D=Y

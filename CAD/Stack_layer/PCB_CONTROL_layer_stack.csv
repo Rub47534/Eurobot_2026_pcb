@@ -1,0 +1,32 @@
+﻿Board Layer Stack
+Number;Name;Type;Manufacturer;Material;Process;Thickness (mm);Weight (oz);Dk;Df;Orientation;Copper Orientation;Description;Constructions;Resin (%);Frequency (GHz);GlassTransTemp (°C)
+;Top Overlay;Overlay;;;;;;;;;;;;;;
+;Top Solder;Solder Mask;;Solder Resist;;0.025;;3.5;;;;;;;;
+1;Top Layer (PWR);Signal;Altium Designer;CF-004;ED;0.035;1;;;Top;Above;Copper Foil;;;;
+;Dielectric 2;Prepreg;Altium Designer;FR-4;;0.115;;4.2;0.02;;;;1080;62;1;180
+2;Layer 1 (GND);Signal;Altium Designer;CF-004;ED;0.035;1;;;Not allowed;Above;Copper Foil;;;;
+;Dielectric 1;Dielectric;;FR-4;;1.13;;4.7;;;;;;;;
+3;Layer 2 (SIGN);Signal;Altium Designer;CF-004;ED;0.035;1;;;Not allowed;Below;Copper Foil;;;;
+;Dielectric 3;Prepreg;Altium Designer;FR-4;;0.115;;4.2;0.02;;;;1080;62;1;180
+4;Bottom Layer (GND);Signal;Altium Designer;CF-004;ED;0.035;1;;;Bottom;Below;Copper Foil;;;;
+;Bottom Solder;Solder Mask;;Solder Resist;;0.025;;3.5;;;;;;;;
+;Bottom Overlay;Overlay;;;;;;;;;;;;;;
+
+
+Impedances
+#;Target impedance (Ω);Type;Trace layer;Calculated impedance (Ω);Trace width (mm);Gap (mm);Reference layers;Stack
+1;40;Single;Bottom Layer (GND);40.0083;0.28115;;Layer 2 (SIGN);Board Layer Stack
+
+2;40;Single;Top Layer (PWR);40.0083;0.28115;;Layer 1 (GND);Board Layer Stack
+
+3;40;Single;Layer 2 (SIGN);41.7714;0.2;;Layer 1 (GND);Bottom Layer (GND);Board Layer Stack
+
+4;40;Single;Layer 1 (GND);41.7714;0.2;;Top Layer (PWR);Layer 2 (SIGN);Board Layer Stack
+
+
+Via types
+#;Name;Type;Layers;Stack
+1;Thru 1:4;Thru;Top Layer (PWR)-Bottom Layer (GND);Board Layer Stack
+
+
+No back drills

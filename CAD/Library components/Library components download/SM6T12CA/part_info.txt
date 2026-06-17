@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=SM6T12CA
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Diodes Moulded Non Polarised
+PinCount=2
+Version=6.1
+Released=2022-09-04 07:10:13
+Downloaded=2026-01-22 11:45:23
+3D=Y

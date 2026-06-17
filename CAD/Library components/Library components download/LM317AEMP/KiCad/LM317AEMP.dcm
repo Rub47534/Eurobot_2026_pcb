@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM317AEMP
+D TEXAS INSTRUMENTS - LM317AEMP... - V REG ADJ +1.2/37V, SOT-223-3, 317
+K
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM317A&&fileType=pdf
+$ENDCMP
+#
+#End Doc Library

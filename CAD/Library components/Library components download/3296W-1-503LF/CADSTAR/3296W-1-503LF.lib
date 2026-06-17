@@ -1,0 +1,18 @@
+.3296W-1-503LF :1 ;3296W top adj cermet trimmer,50K 10mm Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 50k +/-10% 1/2W +/-100ppm/C
+"3296W1503LF"
+*STM R
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 3
+*DFN 3296W-1-503LF
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (3296W-1-503LF)
+~!Mouser Part Number (652-3296W-1-503LF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-503LF?qs=NmEazmuVvbVy5cO6T2zGYQ%3D%3D)
+~!Arrow Part Number (3296W-1-503LF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/3296w-1-503lf/bourns?utm_currency=USD&region=europe)
+~!Link Datasheet (http://www.bourns.com/docs/Product-Datasheets/3296.pdf)
+~!Height (10.28mm)
+~!3D_Model (3296W-1-503LF)
+"3296W-1-503LF"
+1.1!U 2.1!U 3.1!U 

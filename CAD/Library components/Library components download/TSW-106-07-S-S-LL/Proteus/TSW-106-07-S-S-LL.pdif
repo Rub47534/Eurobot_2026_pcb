@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TSW-106-07-S-S-LL"
+   (description "CONN HEADER 6 POS .100\"")
+   (family "CON")
+   (package "HDRV6W64P254_1X6_1524X241X838P")
+   (attribute "Datasheet Link" "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf")
+   (attribute "Geometry.Height" "8.38mm")
+   (attribute "Manufacturer_Name" "SAMTEC")
+   (attribute "Manufacturer_Part_Number" "TSW-106-07-S-S-LL")
+   (attribute "Mouser Part Number" "200-TSW10607SSLL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-106-07-S-S-LL?qs=rU5fayqh%252BE10aYBI%252BwvgeA%3D%3D")
+   (attribute "Arrow Part Number" "TSW-106-07-S-S-LL")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-106-07-s-s-ll/samtec?region=nac")
+   (gate
+    (symbol "TSW-106-07-S-S-LL")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "TSW-106-07-S-S-LL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "HDRV6W64P254_1X6_1524X241X838P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt -1.52 -1.455)
+      (pt -1.52 1.455)
+      (pt 14.22 1.455)
+      (pt 14.22 -1.455)
+      (pt -1.52 -1.455))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.27 -1.205)
+      (pt -1.27 1.205)
+      (pt 13.97 1.205)
+      (pt 13.97 -1.205)
+      (pt -1.27 -1.205))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.27 0)
+      (pt -1.27 -1.205)
+      (pt 13.97 -1.205)
+      (pt 13.97 1.205)
+      (pt 0 1.205))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (leg 4 (pt 7.62 0) (padstack 0))
+   (leg 5 (pt 10.16 0) (padstack 0))
+   (leg 6 (pt 12.7 0) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.65))
+    (pad (layer INNER) (round 1.65))
+    (pad (layer BCOP) (round 1.65))
+   )
+   (padstack 1
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.65))
+    (pad (layer INNER) (round 1.65))
+    (pad (layer BCOP) (square 1.65))
+   )
+   (model "TSW-106-07-S-S-LL.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

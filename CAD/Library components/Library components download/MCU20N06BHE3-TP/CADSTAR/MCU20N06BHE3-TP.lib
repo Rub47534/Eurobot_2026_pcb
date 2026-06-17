@@ -1,0 +1,18 @@
+.MCU20N06BHE3-TP :1 ;N-CHANNEL MOSFET,-55C to +150C,DPAK(TO-252)
+MCU20N06BHE3TP
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN MCU20N06BHE3-TP
+~!Manufacturer_Name (MCC)
+~!Manufacturer_Part_Number (MCU20N06BHE3-TP)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mccsemi.com/pdf/Products/MCU20N06BHE3(DPAK).pdf)
+~!Height (2.53mm)
+~!3D_Model (MCU20N06BHE3-TP)
+MCU20N06BHE3-TP
+1.1!U 2.1!U 3.1!U 

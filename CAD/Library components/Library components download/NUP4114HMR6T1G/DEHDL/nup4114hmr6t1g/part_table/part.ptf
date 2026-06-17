@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NUP4114HMR6T1G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "NUP4114HMR6T1G" (!) = "", "SOT95P275X110-6N", "SOT23 (6-Pin)", "863-NUP4114HMR6T1G", "https://www.mouser.co.uk/ProductDetail/onsemi/NUP4114HMR6T1G?qs=N5dOQkml4H94pJEa3E8tzw%3D%3D", "NUP4114HMR6T1G", "https://www.arrow.com/en/products/nup4114hmr6t1g/on-semiconductor?region=nac", "Low Clamping Voltage; Small Body Outline Dimensions on SC88 Package:0.082 x 0.078 (2.10 mm x 1.25 mm); Low Body Height: 0.043 (1.10 mm); Standoff Voltage: 5.5 V; Low Leakage; Response Time is Typically < 1.0 ns; IEC6100042 Level 4 ESD Protection; These Devices are PbFree and are RoHS Compliant; AECQ101 Qualified and PPAP Capable for SZNUP4114; Meets UL 94 V-0; SZ prefix for automotive and other applications requiring unique site and control change requirements", "https://www.onsemi.com/pub/Collateral/NUP4114-D.PDF", "1.1 mm"
+END_PART
+
+END.

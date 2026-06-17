@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B6B-XH-A_LF__SN_"
+   (description "CONN HEADER VERT 6POS 2.5MM")
+   (family "CON")
+   (package "SHDR6W64P0X250_1X6_1740X575X700P")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf")
+   (attribute "Geometry.Height" "7mm")
+   (attribute "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)")
+   (attribute "Manufacturer_Part_Number" "B6B-XH-A(LF)(SN)")
+   (attribute "Mouser Part Number" "306-B6BXHALFSN")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B6B-XH-ALFSN?qs=cdbOS8ANM9AKmMmofXbwlw%3D%3D")
+   (attribute "Arrow Part Number" "B6B-XH-A(LF)(SN)")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/b6b-xh-a-lf-sn/jst-manufacturing?utm_currency=USD&region=europe")
+   (gate
+    (symbol "B6B-XH-A_LF__SN_")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "B6B-XH-A_LF__SN_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SHDR6W64P0X250_1X6_1740X575X700P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.7 -2.6)
+      (pt -2.7 3.65)
+      (pt 15.2 3.65)
+      (pt 15.2 -2.6)
+      (pt -2.7 -2.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.45 -2.35)
+      (pt -2.45 3.4)
+      (pt 14.95 3.4)
+      (pt 14.95 -2.35)
+      (pt -2.45 -2.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 -2.35)
+      (pt 14.95 -2.35)
+      (pt 14.95 3.4)
+      (pt -2.45 3.4)
+      (pt -2.45 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.5 0) (padstack 0))
+   (leg 3 (pt 5 0) (padstack 0))
+   (leg 4 (pt 7.5 0) (padstack 0))
+   (leg 5 (pt 10 0) (padstack 0))
+   (leg 6 (pt 12.5 0) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.65))
+    (pad (layer INNER) (round 1.65))
+    (pad (layer BCOP) (round 1.65))
+   )
+   (padstack 1
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.65))
+    (pad (layer INNER) (round 1.65))
+    (pad (layer BCOP) (square 1.65))
+   )
+   (model "B6B-XH-A_LF__SN_.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

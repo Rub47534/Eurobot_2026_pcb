@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TSW_106_07_S_S_LL'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMTEC", "TSW-106-07-S-S-LL" (!) = "", "HDRV6W64P254_1X6_1524X241X838P", "Header, Vertical", "200-TSW10607SSLL", "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-106-07-S-S-LL?qs=rU5fayqh%252BE10aYBI%252BwvgeA%3D%3D", "TSW-106-07-S-S-LL", "https://www.arrow.com/en/products/tsw-106-07-s-s-ll/samtec?region=nac", "CONN HEADER 6 POS .100"", "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf", "8.38 mm"
+END_PART
+
+END.

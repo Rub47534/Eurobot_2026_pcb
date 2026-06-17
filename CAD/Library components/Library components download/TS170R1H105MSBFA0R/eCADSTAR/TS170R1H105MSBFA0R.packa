@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TS170R1H105MSBFA0R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-12-23-08:38:24)
+    (mountForm default
+        (footprintRef "TS170R1H105MSBFA0R")
+        (spec "System")
+    )
+)

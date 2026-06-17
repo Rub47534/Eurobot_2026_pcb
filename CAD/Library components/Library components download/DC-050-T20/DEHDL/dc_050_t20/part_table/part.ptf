@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DC_050_T20'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SOFNG", "DC-050-T20" (!) = "", "DC050T20", "Other", "", "", "", "", "Connector", "https://datasheet.lcsc.com/szlcsc/SOFNG-DC-050-T20_C114916.pdf", "11 mm"
+END_PART
+
+END.

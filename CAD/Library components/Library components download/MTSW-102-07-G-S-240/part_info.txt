@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=MTSW-102-07-G-S-240
+PartCategory=Connector
+PackageCategory=Header, Vertical
+PinCount=2
+Version=1.1
+Released=2020-08-21 06:44:34
+Downloaded=2026-03-13 11:16:04
+3D=Y

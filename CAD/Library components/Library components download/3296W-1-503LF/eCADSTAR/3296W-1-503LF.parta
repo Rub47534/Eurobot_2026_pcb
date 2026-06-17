@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_166457"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-05-26-11:46:41)
+    (utime 2024-06-19-14:24:27)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "3296W-1-503LF")
+)
+
+
+(pinAssign "ECS_166457"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-05-26-11:46:41)
+    (utime 2024-06-19-14:24:27)
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_166457")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "3296W-1-503LF")
+)
+
+
+(part "3296W-1-503LF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-05-26-11:46:41)
+    (utime 2024-06-19-14:24:27)
+    (packageRef "3296W-1-503LF")
+    (pinAssignRef "ECS_166457")
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "3296W top adj cermet trimmer,50K 10mm Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 50k +/-10% 1/2W +/-100ppm/C")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "3296W-1-503LF")
+    (property "Mouser_Part_Number" "652-3296W-1-503LF")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3296W-1-503LF?qs=NmEazmuVvbVy5cO6T2zGYQ%3D%3D")
+    (property "Arrow_Part_Number" "3296W-1-503LF")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/3296w-1-503lf/bourns?utm_currency=USD&region=europe")
+    (property "Datasheet_Link" "http://www.bourns.com/docs/Product-Datasheets/3296.pdf")
+    (property "compAreaTopHeight" 10.28)
+)
+
+

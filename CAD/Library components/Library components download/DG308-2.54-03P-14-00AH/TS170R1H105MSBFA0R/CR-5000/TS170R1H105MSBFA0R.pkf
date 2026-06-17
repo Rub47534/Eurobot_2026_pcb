@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TS170R1H105MSBFA0R"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TS170R1H105MSBFA0R")
+        (spec "default")
+    )
+)

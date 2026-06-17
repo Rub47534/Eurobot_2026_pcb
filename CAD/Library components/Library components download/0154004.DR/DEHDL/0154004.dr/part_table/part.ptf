@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '0154004.DR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "LITTELFUSE", "0154004.DR" (!) = "", "0154001.DRT", "Other", "576-0154004.DR", "https://www.mouser.co.uk/ProductDetail/Littelfuse/0154004.DR?qs=gu7KAQ731UQeedYeniUNnQ%3D%3D", "0154004.DR", "https://www.arrow.com/en/products/0154004.dr/littelfuse?utm_currency=USD&region=nac", "Fuse SMD NANO2 4A FF w/holder Littelfuse 4A FF Surface Mount Fuse, 125 V ac/dc", "http://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf"
+END_PART
+
+END.

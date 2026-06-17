@@ -1,0 +1,9 @@
+Manufacturer=Suntan Technology
+PartNumber=TS170R1H105MSBFA0R
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.10
+Released=2024-12-23 08:38:24
+Downloaded=2026-01-23 13:56:23
+3D=Y

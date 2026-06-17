@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RC0805FR-134K75L"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-20-21:03:03)
+    (mountForm default
+        (footprintRef "RESC2012X60N")
+        (spec "System")
+    )
+)

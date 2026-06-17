@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "USB-A-D-F-W-TH"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-10-29-09:04:27)
+    (mountForm default
+        (footprintRef "USBADFWTH")
+        (spec "System")
+    )
+)

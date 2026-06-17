@@ -1,0 +1,119 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SM6T12A"
+   (description "STMICROELECTRONICS - SM6T12A - TVS Diode, Transil SM6T Series, Unidirectional, 10.2 V, 21.7 V, DO-214AA, 2 Pins")
+   (family "DIO")
+   (package "DIOM5436X265N")
+   (attribute "Datasheet Link" "https://www.st.com/resource/en/datasheet/sm6t100a.pdf")
+   (attribute "Geometry.Height" "2.65mm")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "SM6T12A")
+   (attribute "Mouser Part Number" "511-SM6T12A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T12A?qs=arR7071FstdELXE5zqFB%2Fg%3D%3D")
+   (attribute "Arrow Part Number" "SM6T12A")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/sm6t12a/stmicroelectronics?region=nac")
+   (gate
+    (symbol "SM6T12A")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SM6T12A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -80) (pt 240 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -80) (pt 200 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 100) (pt 200 80))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOM5436X265N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.55 2.225)
+      (pt 3.55 2.225)
+      (pt 3.55 -2.225)
+      (pt -3.55 -2.225)
+      (pt -3.55 2.225))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.675 1.812)
+      (pt 2.675 1.812)
+      (pt 2.675 -1.812)
+      (pt -2.675 -1.812)
+      (pt -2.675 1.812))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.675 0.738)
+      (pt -1.6 1.812))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.675 1.812)
+      (pt -3.275 1.812))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.675 -1.812)
+      (pt 2.675 -1.812))))
+   (leg 1 (pt -2.2 0) (padstack 0))
+   (leg 2 (pt 2.2 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.15 2.2 0 0 0))
+   )
+   (model "SM6T12A.stp"
+    (euler 0 0 0)
+    (offset 0 0 1.2300000190734863)
+   )
+  )
+ )
+)

@@ -1,0 +1,18 @@
+.UUN1E221MNQ1MS :1 ;Aluminum Electrolytic Capacitors - SMD 220uF 25V 20% 105C 12.5X13.5
+CAPAE1360X1450N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN UUN1E221MNQ1MS
+~!Manufacturer_Name (Nichicon)
+~!Manufacturer_Part_Number (UUN1E221MNQ1MS)
+~!Mouser Part Number (647-UUN1E221MNQ1MS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nichicon/UUN1E221MNQ1MS?qs=foqSp1HUgzsQeD6U5XTchA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/UUN1E221MNQ1MS.pdf)
+~!Height (14.5mm)
+~!3D_Model (UUN1E221MNQ1MS)
+UUN1E221MNQ1MS
+1.1!U 2.1!U 

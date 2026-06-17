@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CAPAE1360X1450N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CAPAE1360X1450N")
+        (spec "default")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS12D00G3
+D 3 Pin Toggle Switch
+K
+F http://vimex.com/switches/techdocs/SS12D00-tech.pdf
+$ENDCMP
+#
+#End Doc Library

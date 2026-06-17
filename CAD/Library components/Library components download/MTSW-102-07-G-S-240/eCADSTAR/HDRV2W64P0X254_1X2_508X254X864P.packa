@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MTSW-102-07-G-S-240"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-08-21-06:44:34)
+    (mountForm default
+        (footprintRef "HDRV2W64P0X254_1X2_508X254X864P")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=SOFNG
+PartNumber=DC-050-T20
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2019-05-10 11:11:40
+Downloaded=2026-01-21 00:45:21
+3D=Y

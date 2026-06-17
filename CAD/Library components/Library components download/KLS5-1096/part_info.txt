@@ -1,0 +1,9 @@
+Manufacturer=KLS Electronic
+PartNumber=KLS5-1096
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-05-26 08:32:11
+Downloaded=2026-01-21 21:16:55
+3D=Y

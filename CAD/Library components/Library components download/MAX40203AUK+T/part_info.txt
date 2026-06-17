@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX40203AUK+T
+PartCategory=Diode
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2019-11-25 07:08:40
+Downloaded=2026-01-23 12:07:21
+3D=Y

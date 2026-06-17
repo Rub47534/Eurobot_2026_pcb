@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=0154004.DR
+PartCategory=Fuse
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2018-03-12 15:48:02
+Downloaded=2026-02-08 13:13:13
+3D=Y

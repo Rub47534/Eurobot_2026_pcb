@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=3296W-1-503LF
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.4
+Released=2017-05-26 11:46:41
+Downloaded=2026-03-05 13:39:30
+3D=Y

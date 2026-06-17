@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX809REXR+
+D Supervisor Push-Pull, Totem Pole 1 Channel SC-70-3
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/MAX803-MAX810Z.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DG308-2.54-03P-14-00AH
+D PCB terminal block; angled 90; 2.54mm; ways: 3; on PCBs; 1mm2
+K
+F https://static.chipdip.ru/lib/009/DOC004009389.pdf
+$ENDCMP
+#
+#End Doc Library

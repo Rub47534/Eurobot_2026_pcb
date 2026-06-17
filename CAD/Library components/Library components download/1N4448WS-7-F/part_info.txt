@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=1N4448WS-7-F
+PartCategory=Diode
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=4.2
+Released=2017-10-19 15:09:06
+Downloaded=2026-01-22 12:57:31
+3D=Y

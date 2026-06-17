@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SM6T12CA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-15-03:59:49)
+    (mountForm default
+        (footprintRef "DIONM5436X265N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,18 @@
+.MTSW-102-07-G-S-240 :1 ;Headers & Wire Housings .100" Variable Post Height Terminal Strip
+HDRV2W64P0X254_1X2_508X254X864P
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MTSW-102-07-G-S-240
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (MTSW-102-07-G-S-240)
+~!Mouser Part Number (200-MTSW10207GS240)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Samtec/MTSW-102-07-G-S-240?qs=rU5fayqh%252BE07rqkuKhF%252Bfg%3D%3D)
+~!Arrow Part Number (MTSW-102-07-G-S-240)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mtsw-102-07-g-s-240/samtec)
+~!Link Datasheet (http://suddendocs.samtec.com/catalog_english/mtsw.pdf)
+~!Height (8.64mm)
+~!3D_Model (MTSW-102-07-G-S-240)
+MTSW-102-07-G-S-240
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=LQM21FN2R2N00D
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=5.5
+Released=2018-03-19 20:02:19
+Downloaded=2026-01-22 12:49:29
+3D=Y

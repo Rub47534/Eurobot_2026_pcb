@@ -1,0 +1,9 @@
+Manufacturer=Vimex
+PartNumber=SS12D00G3
+PartCategory=Switch
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2020-12-18 11:10:44
+Downloaded=2026-01-21 23:19:37
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM317AEMP'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM317AEMP" (!) = "", "SOT230P700X180-4N", "SOT223 (3-Pin)", "926-LM317AEMP", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317AEMP?qs=X1J7HmVL2ZGkQwt18De0Dg%3D%3D", "LM317AEMP", "https://www.arrow.com/en/products/lm317aemp/texas-instruments?region=europe", "TEXAS INSTRUMENTS - LM317AEMP... - V REG ADJ +1.2/37V, SOT-223-3, 317", "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM317A&&fileType=pdf", "1.8 mm"
+END_PART
+
+END.

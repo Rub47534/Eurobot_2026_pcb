@@ -1,0 +1,105 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SS12D00G3"
+   (description "3 Pin Toggle Switch")
+   (family "SWI")
+   (package "SS12D00G3")
+   (attribute "Datasheet Link" "http://vimex.com/switches/techdocs/SS12D00-tech.pdf")
+   (attribute "Geometry.Height" "7mm")
+   (attribute "Manufacturer_Name" "Vimex")
+   (attribute "Manufacturer_Part_Number" "SS12D00G3")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SS12D00G3")
+    (pin "NC" 1 NC)
+    (pin "COM" 2 PS)
+    (pin "NO" 3 PS)
+   )
+  )
+  (symbol "SS12D00G3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SS12D00G3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.25 1.75)
+      (pt 4.25 1.75)
+      (pt 4.25 -1.75)
+      (pt -4.25 -1.75)
+      (pt -4.25 1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.25 1.75)
+      (pt 4.25 1.75)
+      (pt 4.25 -1.75)
+      (pt -4.25 -1.75)
+      (pt -4.25 1.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.25 2.75)
+      (pt 5.25 2.75)
+      (pt 5.25 -2.75)
+      (pt -5.25 -2.75)
+      (pt -5.25 2.75))))
+   (leg 1 (pt -2.500 0.000) (padstack 0))
+   (leg 2 (pt 0.000 0.000) (padstack 0))
+   (leg 3 (pt 2.500 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (model "SS12D00G3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0.18000000715255737)
+   )
+  )
+ )
+)

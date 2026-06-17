@@ -1,0 +1,18 @@
+.TSW-106-07-S-S-LL :1 ;CONN HEADER 6 POS .100"
+HDRV6W64P254_1X6_1524X241X838P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN TSW-106-07-S-S-LL
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (TSW-106-07-S-S-LL)
+~!Mouser Part Number (200-TSW10607SSLL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Samtec/TSW-106-07-S-S-LL?qs=rU5fayqh%252BE10aYBI%252BwvgeA%3D%3D)
+~!Arrow Part Number (TSW-106-07-S-S-LL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tsw-106-07-s-s-ll/samtec?region=nac)
+~!Link Datasheet (http://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
+~!Height (8.38mm)
+~!3D_Model (TSW-106-07-S-S-LL)
+TSW-106-07-S-S-LL
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

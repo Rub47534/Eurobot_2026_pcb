@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KLS5_1096'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KLS Electronic", "KLS5-1096" (!) = "", "KLS51096", "Other", "", "", "", "", "PCB Fuse Holder For Fuse 5.220mm Pitch 22.4mm KLS5-1096 	All Products in Fuse holders & Fuse clips", "http://www.klsele.com/admin/product_upload/20220316105607L-KLS5-1096.pdf", "11.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SK_12F17_G_7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "C & K COMPONENTS", "SK-12F17-G 7" (!) = "", "SK12F17G7", "Other", "611-SK-12F17-G7", "https://www.mouser.com/Search/Refine.aspx?Keyword=611-SK-12F17-G7", "SK-12F17-G 7", "https://www.arrow.com/en/products/sk12f17g7/ck?region=nac", "Slide Switch SPDT Through Hole, 300MA 30V Right Angle ", "https://www.digikey.com/en/products/detail/c-k/SK-12F17-G-7/2747163", "8 mm"
+END_PART
+
+END.

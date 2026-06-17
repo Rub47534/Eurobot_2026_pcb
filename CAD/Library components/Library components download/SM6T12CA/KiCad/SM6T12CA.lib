@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SM6T12CA
+#/179885/1869775/2.50/2/2/TVS Diode (Bi-directional)
+DEF SM6T12CA D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L BNN
+F1 "SM6T12CA" 500 250 50 H V L BNN
+F2 "DIONM5436X265N" 500 150 50 H I L BNN
+F3 "https://www.st.com/resource/en/datasheet/sm6t100a.pdf" 500 50 50 H I L BNN
+F4 "TVS Diode Bi-Directional SM6T12CA 21.7V, 600W, SMB 2-Pin" 500 -50 50 H I L BNN "Description"
+F5 "2.65" 500 -150 50 H I L BNN "Height"
+F6 "STMicroelectronics" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "SM6T12CA" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "511-SM6T12CA" 500 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T12CA?qs=E0mHVHmM7uZZ%252BnXtu4a9QA%3D%3D" 500 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "SM6T12CA" 500 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sm6t12ca/stmicroelectronics" 500 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+P 4 0 1 6 400 0 200 -100 200 100 400 0 N
+P 4 0 1 6 400 0 600 -100 600 100 400 0 N
+P 2 0 1 6 400 -80 400 80 N
+P 2 0 1 6 360 100 400 80 N
+P 2 0 1 6 400 -80 440 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

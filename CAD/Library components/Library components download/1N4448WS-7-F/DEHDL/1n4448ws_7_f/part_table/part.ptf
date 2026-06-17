@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1N4448WS_7_F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "1N4448WS-7-F" (!) = "", "SOD2513X120N", "Small Outline Diode", "621-1N4448WS-F", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4448WS-7-F?qs=4drIV0IxA0qGSTUvNxPxDA%3D%3D", "1N4448WS-7-F", "https://www.arrow.com/en/products/1n4448ws-7-f/diodes-incorporated?utm_currency=USD&region=nac", "Diode Switching 75V 0.25A 2Pin SOD323 Diodes Inc 1N4448WS-7-F Switching Diode, 500mA 75V, 2-Pin SOD-323", "https://www.diodes.com//assets/Datasheets/ds30096.pdf", "1.2 mm"
+END_PART
+
+END.

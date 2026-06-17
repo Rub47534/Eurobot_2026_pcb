@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "USBA1VSB6"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "USBA1VSB6")
+        (spec "default")
+    )
+)

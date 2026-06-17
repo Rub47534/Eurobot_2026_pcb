@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "KLS5-1096"
+   (description "PCB Fuse Holder For Fuse 5.220mm Pitch 22.4mm KLS5-1096 	All Products in Fuse holders & Fuse clips")
+   (family "CON")
+   (package "KLS51096")
+   (attribute "Datasheet Link" "http://www.klsele.com/admin/product_upload/20220316105607L-KLS5-1096.pdf")
+   (attribute "Geometry.Height" "11.1mm")
+   (attribute "Manufacturer_Name" "KLS Electronic")
+   (attribute "Manufacturer_Part_Number" "KLS5-1096")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "KLS5-1096")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "KLS5-1096"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "KLS51096"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.05 4.85)
+      (pt 23.45 4.85)
+      (pt 23.45 -4.85)
+      (pt -1.05 -4.85)
+      (pt -1.05 4.85))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.267 5.85)
+      (pt 24.667 5.85)
+      (pt 24.667 -5.85)
+      (pt -2.267 -5.85)
+      (pt -2.267 5.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.05 2)
+      (pt -1.05 4.85)
+      (pt 23.45 4.85)
+      (pt 23.45 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.05 -2)
+      (pt -1.05 -4.85)
+      (pt 23.45 -4.85)
+      (pt 23.45 -2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.8 0)
+      (arc (pt -1.800 0.000) (pt -1.900 -0.050) (pt -1.800 0.050) (start 180.0) (sweep .0))
+      (pt -1.9 0)
+      (arc (pt -1.900 0.000) (pt -1.900 -0.050) (pt -1.800 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 22.400 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.69)
+    (plated true)
+    (pad (layer TCOP) (square 2.535))
+    (pad (layer INNER) (round 2.535))
+    (pad (layer BCOP) (square 2.535))
+   )
+   (padstack 2
+    (hole 1.69)
+    (plated true)
+    (pad (layer TCOP) (round 2.535))
+    (pad (layer INNER) (round 2.535))
+    (pad (layer BCOP) (round 2.535))
+   )
+   (model "KLS5-1096.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

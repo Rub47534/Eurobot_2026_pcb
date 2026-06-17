@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RC0805FR_134K75L'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "YAGEO", "RC0805FR-134K75L" (!) = "", "RESC2012X60N", "Resistor Chip", "603-RC0805FR-134K75L", "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0805FR-134K75L?qs=m6lXFsvg5e267D1E2DRXpg%3D%3D", "", "", "Thick Film Resistors - SMD 4.75kOhms 1/8W 0805 1%", "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf", "0.6 mm"
+END_PART
+
+END.

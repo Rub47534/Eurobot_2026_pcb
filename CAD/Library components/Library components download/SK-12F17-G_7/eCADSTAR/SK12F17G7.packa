@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SK-12F17-G_7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-08-16:30:44)
+    (mountForm default
+        (footprintRef "SK12F17G7")
+        (spec "System")
+    )
+)

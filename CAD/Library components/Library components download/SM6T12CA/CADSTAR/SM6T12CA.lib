@@ -1,0 +1,18 @@
+.SM6T12CA :1 ;TVS Diode Bi-Directional SM6T12CA 21.7V, 600W, SMB 2-Pin
+DIONM5436X265N
+*STM D
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SM6T12CA
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (SM6T12CA)
+~!Mouser Part Number (511-SM6T12CA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T12CA?qs=E0mHVHmM7uZZ%252BnXtu4a9QA%3D%3D)
+~!Arrow Part Number (SM6T12CA)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sm6t12ca/stmicroelectronics)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/sm6t100a.pdf)
+~!Height (2.65mm)
+~!3D_Model (SM6T12CA)
+SM6T12CA
+1.1!U 2.1!U 

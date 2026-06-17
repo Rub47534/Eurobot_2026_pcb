@@ -1,0 +1,9 @@
+Manufacturer=C & K COMPONENTS
+PartNumber=SK-12F17-G 7
+PartCategory=Switch
+PackageCategory=Other
+PinCount=7
+Version=3.2
+Released=2020-07-08 16:30:44
+Downloaded=2026-03-18 10:28:29
+3D=Y

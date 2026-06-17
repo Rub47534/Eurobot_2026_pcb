@@ -1,0 +1,18 @@
+.LM393ADR :1 ;TEXAS INSTRUMENTS - LM393ADR - COMPARATOR DUAL, SMD, SOIC8, 393
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="1OUT" 2="1IN-" 3="1IN+" 4="GND" 5="2IN+" 6="2IN-" 7="2OUT" 8="VCC"
+*MXP 8
+*DFN LM393ADR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM393ADR)
+~!Mouser Part Number (595-LM393ADR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM393ADR?qs=VolsR0DjNPq76ZV6Dhd8nQ%3D%3D)
+~!Arrow Part Number (LM393ADR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm393adr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/lm393a.pdf)
+~!Height (1.75mm)
+~!3D_Model (LM393ADR)
+LM393ADR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

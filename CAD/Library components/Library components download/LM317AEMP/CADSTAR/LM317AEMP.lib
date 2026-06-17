@@ -1,0 +1,18 @@
+.LM317AEMP :1 ;TEXAS INSTRUMENTS - LM317AEMP... - V REG ADJ +1.2/37V, SOT-223-3, 317
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="ADJ" 2="VOUT_1" 3="VIN" 4="VOUT_2"
+*MXP 4
+*DFN LM317AEMP
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM317AEMP)
+~!Mouser Part Number (926-LM317AEMP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317AEMP?qs=X1J7HmVL2ZGkQwt18De0Dg%3D%3D)
+~!Arrow Part Number (LM317AEMP)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm317aemp/texas-instruments?region=europe)
+~!Link Datasheet (http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM317A&&fileType=pdf)
+~!Height (1.8mm)
+~!3D_Model (LM317AEMP)
+LM317AEMP
+1.1!U 2.1!U 3.1!U 4.1!U 

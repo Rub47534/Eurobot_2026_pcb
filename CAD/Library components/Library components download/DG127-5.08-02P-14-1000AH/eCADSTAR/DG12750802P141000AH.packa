@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DG127-5_08-02P-14-1000AH"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-05-08-03:23:00)
+    (mountForm default
+        (footprintRef "DG12750802P141000AH")
+        (spec "System")
+    )
+)

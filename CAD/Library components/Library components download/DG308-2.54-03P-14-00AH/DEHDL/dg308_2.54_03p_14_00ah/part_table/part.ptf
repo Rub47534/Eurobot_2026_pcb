@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DG308_2.54_03P_14_00AH'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Degson", "DG308-2.54-03P-14-00AH" (!) = "", "DG30825403P1400AH", "Other", "", "", "", "", "PCB terminal block; angled 90; 2.54mm; ways: 3; on PCBs; 1mm2", "https://static.chipdip.ru/lib/009/DOC004009389.pdf", "8.7 mm"
+END_PART
+
+END.

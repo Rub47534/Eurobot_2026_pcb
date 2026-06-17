@@ -1,0 +1,19 @@
+.DC-050-T20 :1 ;Connector
+DC050T20
+*STM J
+*NGS
+*PNM 1=3 2=4 3=A5 4=B5
+*PLB 1="3" 2="4" 3="A5" 4="B5"
+*MXP 6
+*DFN DC-050-T20
+~!Manufacturer_Name (SOFNG)
+~!Manufacturer_Part_Number (DC-050-T20)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/SOFNG-DC-050-T20_C114916.pdf)
+~!Height (11mm)
+~!3D_Model (DC-050-T20)
+DC-050-T20
+1.1!U 2.1!U 3.1!U 4.1!U 

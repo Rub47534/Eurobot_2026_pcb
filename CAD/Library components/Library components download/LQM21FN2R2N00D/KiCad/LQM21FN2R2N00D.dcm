@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQM21FN2R2N00D
+D Power inductor SMD 0805 2.2uH Murata LQM21F Series 2200 nH +/-30% Multilayer SMD Inductor, 0805 Case, SRF: 0.07GHz 150mA dc 280m Rdc
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0006.pdf
+$ENDCMP
+#
+#End Doc Library

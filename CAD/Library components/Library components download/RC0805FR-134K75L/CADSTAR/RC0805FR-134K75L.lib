@@ -1,0 +1,18 @@
+.RC0805FR-134K75L :1 ;Thick Film Resistors - SMD 4.75kOhms 1/8W 0805 1%
+RESC2012X60N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RC0805FR-134K75L
+~!Manufacturer_Name (YAGEO)
+~!Manufacturer_Part_Number (RC0805FR-134K75L)
+~!Mouser Part Number (603-RC0805FR-134K75L)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/YAGEO/RC0805FR-134K75L?qs=m6lXFsvg5e267D1E2DRXpg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf)
+~!Height (0.6mm)
+~!3D_Model (RC0805FR-134K75L)
+RC0805FR-134K75L
+1.1!U 2.1!U 

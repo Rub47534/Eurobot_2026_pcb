@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB_A1VSB6'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "On Shore Technology Inc.", "USB-A1VSB6" (!) = "", "USBA1VSB6", "Other", "", "", "USB-A1VSB6", "https://www.arrow.com/en/products/usb-a1vsb6/on-shore-technology?utm_currency=USD&region=nac", "USB - A Receptacle Connector 4 Position Through Hole", "http://www.on-shore.com/wp-content/uploads/USB-A1VSXX.pdf", "13.7 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=USB-A-D-F-W-TH
+PartCategory=Connector
+PackageCategory=Other
+PinCount=12
+Version=2.2
+Released=2025-10-29 09:04:26
+Downloaded=2026-02-05 14:04:51
+3D=Y

@@ -1,0 +1,115 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "L78M05CDT"
+   (description "Positive voltage regulators, Precision 500 mA, 5V, DPAK")
+   (family "ANA")
+   (package "L78M05CDT")
+   (attribute "Datasheet Link" "https://www.st.com/resource/en/datasheet/l78m.pdf")
+   (attribute "Geometry.Height" "2.5mm")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "L78M05CDT")
+   (attribute "Mouser Part Number" "511-L78M05CDT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M05CDT?qs=EYQuxaDwR79rnNxSL0UEZA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "L78M05CDT")
+    (pin "IN" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "OUT" 3 PS)
+   )
+  )
+  (symbol "L78M05CDT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "L78M05CDT"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.25 4.975)
+      (pt 3.25 4.975)
+      (pt 3.25 -1.125)
+      (pt -3.25 -1.125)
+      (pt -3.25 4.975))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.35 7.7)
+      (pt 4.35 7.7)
+      (pt 4.35 -6.275)
+      (pt -4.35 -6.275)
+      (pt -4.35 7.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.25 -0.675)
+      (pt -3.25 -1.125)
+      (pt 3.25 -1.125)
+      (pt 3.25 -0.675))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.286 -5.175)
+      (arc (pt -2.286 -5.175) (pt -2.336 -5.275) (pt -2.236 -5.175) (start 180.0) (sweep 90.0))
+      (pt -2.286 -5.275)
+      (arc (pt -2.286 -5.275) (pt -2.336 -5.275) (pt -2.236 -5.175) (start 180.0) (sweep -90.0))
+      (pt -2.286 -5.175))))
+   (leg 1 (pt -2.286 -3.300) (padstack 0))
+   (leg 2 (pt 0.000 3.350) (padstack 2))
+   (leg 3 (pt 2.286 -3.300) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.600 3.000 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (square 6.700))
+   )
+   (model "L78M05CDT.stp"
+    (euler 0 0 0)
+    (offset 0 1.8799999952316284 1.3300000429153442)
+   )
+  )
+ )
+)
