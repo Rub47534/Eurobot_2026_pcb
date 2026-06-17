@@ -14,143 +14,90 @@
 **`8`** Electrostatic Discharge (ESD) Testing  
 **`9`** Electromagnetic Compatibility (EMC) Testing  
 **`10`** Final System Testing
+
+<p align="center">
+  <img src="Reports/power_board_3d_altium.jpg" alt="3D model of the designed power board" width="50%">
+  <br>
+  <em>3D model of the designed power board</em>
+</p>
+
+<p align="center">
+  <img src="Reports/logic_board_3d_altium.jpg" alt="3D model of the designed control board" width="50%">
+  <br>
+  <em>3D model of the designed control board</em>
+</p>
+
 ## Repository Structure
 
-
-
+```text
 ├── BOM/
-│ └── Bill of Materials with procurement links
+│   ├── Control_PCB/                     # Components used in the control board
+│   ├── Power_PCB/                       # Components used in the power board
+│   └── Евробот_смета_2026.xlsx          # Bill of Materials with procurement links
 ├── CAD/
-│ ├── schematic/ # Electrical schematics
-│ ├── library/ # Component library elements
-│ ├── layout/ # PCB layout files
-│ ├── rules.rul # Design rules
-│ └── stackup/ # Layer stackup with materials and thicknesses
+│   ├── Control PCB/                     # Electrical project of control PCB
+│   ├── Layout PCB/                      # PCB layout files
+│   ├── Library components/              # Component library elements
+│   ├── PCB Rules                        # Design rules
+│   ├── Power PCB/                       # Electrical project of power PCB
+│   └── Stack_layer/                     # Layer stackup with materials and thicknesses
 ├── Docs/
-│ ├── STM32H723VGT6/ # Microcontroller documentation
-│ └── tools/ # Design tools list
+│   ├── STM32H723VGT6.pdf                # STM Microcontroller documentation
+│   └── Useful links.txt                 # Design tools list
 ├── Firmware/
-│ └── pinout/ # Control board pinout description
+│   └── Распиновка.docx                  # Control board pinout description
 ├── Gerber/
-│ └── Manufacturing files
+│   ├── Gerber_CONTROL_PCB/              # Manufacturing files of control PCB
+│   └── Gerber_POWER_PCB/                # Manufacturing files of power PCB
 ├── Mech/
-│ ├── boards/ # 3D PCB models (.step)
-│ └── components/ # 3D component models
+│   ├── 3d MODELS/                       # 3D models components (.step)
+│   ├── PCB_CONTOL.step                  # 3D control PCB
+│   └── PCB_POWER.step                   # 3D power PCB
 └── Reports/
-├── photos/ # Testing photos
-└── docs/ # Engineering documentation (.pdf)
-
----
+    ├── photos/                          # Testing photos
+    └── docs/                            # Engineering documentation (.pdf)
+```
 
 ## Key Technical Solutions
 
-### 1. Magnetic Mounting for DC-DC Converters
+For a more detailed description of each section, please refer to the corresponding folders. The key solutions implemented in the developed boards are listed below:
+
+① Magnetic Mounting for DC-DC Converters
 Magnetic mounting for DC-DC converters enables quick module replacement in case of overheating or failure. This solution significantly simplified assembly, debugging, and reduced repair time.
 
-### 2. Comprehensive Power Supply System
-Implemented voltage rails:
-- 3.3 V
-- 5 V
-- 12 V
-- 24 V
-- Adjustable voltage from 3.3 to 24 V
+② Comprehensive Power Supply System
+Implemented voltage rails: 3.3 V, 5 V, 12 V, 24 V, and adjustable voltage from 3.3 to 24 V. This solution allows powering sensors, servos, motors, and other robot modules with different voltage requirements. The adjustable rail serves as a backup for connecting modules with non-standard supply voltages.
 
-This solution allows powering sensors, servos, motors, and other robot modules with different voltage requirements. The adjustable rail serves as a backup for connecting modules with non-standard supply voltages.
-
-### 3. Battery Deep Discharge Protection
+③ Battery Deep Discharge Protection
 An integrated battery discharge control circuit disconnects the battery when the voltage drops below a user-adjustable threshold (set via potentiometer), protecting the battery from over-discharge.
 
-### 4. Power and Logic Separation
-To reduce noise coupling from power circuits to sensitive interface nodes, the power and low-voltage sections were separated into two distinct boards:
-- Power Board
-- Control Board
+④ Power and Logic Separation
+To reduce noise coupling from power circuits to sensitive interface nodes, the power and low-voltage sections were separated into two distinct boards: Power Board and Control Board.
 
-### 5. Independent Debugging
+⑤ Independent Debugging
 The ability to debug each board independently simplified the tuning of electronic modules inside the robot.
 
-### 6. Redundant Interfaces
+⑥ Redundant Interfaces
 In addition to the main interfaces, the control board features expansion connectors for connecting additional sensors, actuators, and modules with interfaces not originally planned.
 
-### 7. Overvoltage and ESD Protection
+⑦ Overvoltage and ESD Protection
 Built-in overvoltage and electrostatic discharge protection ensures the safety of sensitive components.
 
-### 8. Switchable Filtering System
+⑧ Switchable Filtering System
 The power board implements a switchable filtering system using a capacitor array on each power rail, reducing the impact of internal power supply noise on the control board nodes.
+
 
 ---
 
 ## Manufacturing and Assembly
 
-- **Fabrication:** Resonit factory (Moscow, Russia)
-- **Soldering:** In-house laboratory
-- **Connectors:** XH2.54 and pin headers for fast and reliable connections
-- **Indication:** LED indicators for visual status monitoring of key modules
+Both boards were manufactured at the **Resonit** factory (Moscow, Russia). Soldering and assembly were performed in our in-house laboratory. For convenient and reliable connections, XH2.54 connectors and pin headers were used, providing fast and secure wiring. LED indicators were added for visual status monitoring of key modules.
 
-### Assembled Board Photos
-> *Images of the assembled boards*
-
-- [Power Board Photo](Reports/photos/power_board.jpg)
-- [Control Board Photo](Reports/photos/control_board.jpg)
+| | |
+|:---:|:---:|
+| ![Power Board](Reports/power_pcb_assembl.jpg) | ![Control Board](Reports/control_pcb_place_robot.jpg) |
+| *Assembled power board* | *Assembled control board* |
 
 ---
 
-## Testing
 
-### Laboratory Test Bench
-A temporary laboratory test bench was assembled for PCB testing, equipped with:
-- Oscilloscope
-- Multimeter
-- Power supply
-- Signal analyzer
-- Function generator
-
-### Testing Photos
-- [Power Board Testing](Reports/photos/power_test.jpg)
-- [Control Board Testing](Reports/photos/control_test.jpg)
-
----
-
-## Protection and Noise Immunity
-
-### Grounding
-To enhance reliability and protect against static electricity:
-- Both boards are connected to the common robot chassis
-- Grounding is provided through a dedicated metal contact at the bottom of the housing
-- Motor power circuits are additionally grounded
-
-These measures eliminate potential breakdowns and interference, significantly increasing system fault tolerance.
-
-### Shielding and Noise Suppression
-- All signal lines are implemented as twisted pairs to reduce crosstalk
-- Critical nodes underwent clock frequency optimization (reduced to minimum acceptable values without affecting performance)
-
-### Protection Measures
-- Proper shielding
-- Signal buffering
-- Well-designed grounding scheme
-
----
-
-## Results
-
-Final testing confirmed the high reliability of the system — the robot started successfully on the first attempt, demonstrating flawless operation of all modules.
-
-This result was achieved through:
-- Thorough design
-- Step-by-step debugging
-- Comprehensive implementation of protective measures
-
-### Robot Integration Photo
-> *Image of the boards installed in the robot*
-
-- [Boards in Robot](Reports/photos/robot_assembly.jpg)
-
----
-
-## Contact
-
-For collaboration inquiries and additional information, please contact the project developers.
-
----
-
-**© 2026 | Project developed as part of a robotics system creation**
